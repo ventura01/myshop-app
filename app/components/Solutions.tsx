@@ -7,12 +7,12 @@ type Props = {};
 
 const Solutions = (props: Props) => {
   return (
-    <section id="solutions" className="py-20 bg-light overflow-x-hidden">
+    <section id="solutions" className="py-10 md:py-20 bg-light overflow-x-hidden">
       <div className="container max-w-screen-xl mx-auto">
         <div className="relative mb-10 z-10 before:-[''] before:absolute before:w-screen before:right-1/2 before:rounded-tr-[200px] before:z-[-1] before:rounded-br-3xl before:py-28 before:-top-20 before:bg-white before:-bottom-20">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="grid grid-cols-12 gap-2">
-              <div className="col-start-1 col-end-7 relative grid grid-cols-6 gap-2">
+              <div className="col-start-1 col-end-9 md:col-start-1 md:col-end-7 relative grid grid-cols-6 gap-2">
                 <div className="col-start-1 col-end-7">
                   <Image
                     src="/solution-img-1.jpg"
@@ -22,35 +22,35 @@ const Solutions = (props: Props) => {
                     className="object-cover h-96 w-full rounded-xl"
                   />
                 </div>
-                <div className="rounded-xl col-start-2 col-end-4 h-24 w-full rounded-bl-full bg-greenLight "></div>
+                <div className="rounded-2xl col-start-2 col-end-4 h-24 w-full rounded-bl-full bg-greenLight"></div>
                 <div className="relative col-start-4 col-end-7">
                   <Image
                     src="/solution-img-3.jpg"
                     width={356}
                     height={376}
                     alt="solution-image"
-                    className="object-cover h-36 w-full rounded-xl"
+                    className="object-cover w-full rounded-xl"
                   />
                 </div>
               </div>
-              <div className="col-start-7 col-end-13 grid grid-cols-6 gap-2 row-start-1 row-end-2">
+              <div className="col-start-9 col-end-13 md:col-start-7 md:col-end-13 grid grid-cols-6 gap-2 row-start-1 row-end-2">
                 <div className="rounded-xl col-start-1 col-end-3 h-24 w-24 rounded-tr-full bg-purpleLight self-end"></div>
-                <div className="relative col-start-1 col-end-6 self-end">
+                <div className="col-start-1 col-end-7 md:col-start-1 md:col-end-5">
                   <Image
                     src="/solution-img-2.jpg"
                     width={356}
                     height={376}
                     alt="solution-image"
-                    className="object-cover h-60 w-full rounded-xl"
+                    className="object-cover rounded-xl"
                   />
                 </div>
-                <div className="bg-white flex flex-col p-10 shadow-xl rounded-xl col-start-1 col-end-6">
+                <div className="bg-white flex flex-col md:p-10 p-3 shadow-xl rounded-xl col-start-1 col-end-7">
                   <h2 className="font-black text-3xl text-primary">25+</h2>
                   <p className="text-body">Años de experiencia</p>
                 </div>
               </div>
             </div>
-            <div className="flex flex-col gap-y-8 px-14">
+            <div className="flex flex-col mt-16 lg:mt-0 gap-y-8 px-4 lg:px-14">
               <h3 className="text-heading font-semibold text-lg">
                 Our Solutions
               </h3>

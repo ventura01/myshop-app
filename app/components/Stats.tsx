@@ -5,7 +5,7 @@ type Props = {};
 
 const Stats = (props: Props) => {
   return (
-    <section id="stats" className="container max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-5 justify-center items-center py-20">
+    <section id="stats" className="container max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-5 justify-center items-center py-10 md:py-20">
       <div className="flex flex-col gap-y-3 row-start-1 row-end-2 lg:row-start-1 lg:row-end-2 col-start-1 col-end-6 lg:col-start-1 lg:col-end-2 items-center py-10 lg:py-0">
         <h3 className="text-4xl text-primary font-black">99.9%</h3>
         <p className="text-slate-600 font-semibold">Child Safety Solutions</p>

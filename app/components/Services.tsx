@@ -6,7 +6,7 @@ type Props = {};
 
 const Services = (props: Props) => {
   return (
-    <section id="services" className="bg-light py-20 px-4 lg:px-0">
+    <section id="services" className="bg-light py-10 md:py-20 px-4 lg:px-0">
       <div className="container max-w-screen-xl mx-auto">
           <div className="flex flex-col gap-y-5 pb-10 max-w-lg mx-auto">
               <h4 className="text-center font-semibold text-heading">{servicesContent.heading.headingSubtitle}</h4>

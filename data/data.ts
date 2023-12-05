@@ -74,6 +74,93 @@ export const servicesContent = {
     },
   ],
 };
+export const blogContent = {
+  heading: {
+    headingSubtitle: "Our Writeups",
+    headingTitle: "Our Latest Articles",
+    description:
+      "We are dedicated to staying at the forefront of our industry and keeping our valued community informed about the latest trends, insights, and innovations.",
+  },
+  recentBlog: [
+    {
+      permaLink: "#_",
+      featuredImage: "https://picsum.photos/600/280",
+      title: "10 Essential Tips for Protecting Your Home from Burglaries",
+      excerpt:
+        "Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.",
+      author: {
+        img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1055.jpg",
+        name: "Pete Goyette",
+        jobTitle: "Lead Solutions Director",
+      },
+    },
+    {
+      permaLink: "#_",
+      featuredImage: "https://picsum.photos/600/280",
+      title: "Libero quia tempore est amet praesentium labore ad qui enim.",
+      excerpt:
+        "Odit laborum nobis non voluptas esse. Quidem sed iure et. Libero facilis ratione dolores laboriosam numquam. Totam veniam delectus maiores delectus voluptatum qui provident cum. Quis et omnis veritatis est aspernatur.",
+      author: {
+        img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1099.jpg",
+        name: "Molly Bednar Jr.",
+        jobTitle: "Forward Markets Manager",
+      },
+    },
+    {
+      permaLink: "#_",
+      featuredImage: "https://picsum.photos/600/280",
+      title: "Sunt rerum dicta excepturi dolore.",
+      excerpt:
+        "Fugit suscipit dolorum facilis optio vel. A optio labore qui iure. Et cum et sunt veritatis et quis soluta atque. Facilis explicabo possimus ea aut a perspiciatis.",
+      author: {
+        img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
+        name: "Holly Erdman MD",
+        jobTitle: "Regional Web Associate",
+      },
+    },
+    // {
+    //   permaLink: "#_",
+    //   featuredImage: "https://picsum.photos/600/280",
+    //   title: "Odio laborum rerum qui.",
+    //   excerpt:
+    //     "Ullam et numquam. Architecto non numquam quibusdam eos recusandae. Aut et alias quasi aut enim quo.",
+    //   author: {
+    //     img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/962.jpg",
+    //     name: "Pat Fisher",
+    //     jobTitle: "Human Directives Technician",
+    //   },
+    // },
+    // {
+    //   permaLink: "#_",
+    //   featuredImage: "https://picsum.photos/600/280",
+    //   title: "Mollitia qui vel qui nam dolorem ut aliquam modi.",
+    //   excerpt:
+    //     "Eum deserunt dolor sit consequatur ea et. Sunt non minus. Neque mollitia quas commodi et magnam quia perferendis quis rem. Consectetur quam similique ipsa sit ab rerum. Veniam architecto numquam deserunt quis hic nemo officia placeat expedita. Nam ut nulla aut sit magni assumenda sit.",
+    //   author: {
+    //     img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/137.jpg",
+    //     name: "Marta Emmerich",
+    //     jobTitle: "Corporate Mobility Officer",
+    //   },
+    // },
+    // {
+    //   permaLink: "#_",
+    //   featuredImage: "https://picsum.photos/600/280",
+    //   title: "Delectus et autem molestiae.",
+    //   excerpt:
+    //     "Laudantium repellendus dicta sit et omnis hic magni. Minima perferendis deleniti fuga sint quo eos fugit. Debitis quaerat sint ullam qui et saepe dolorem. Cumque corporis aut laborum id error vel deleniti nesciunt. Eaque iure veritatis voluptatem et quas ipsum est consequatur nihil. Cum cum aut et vel ut et molestiae numquam.",
+    //   author: {
+    //     img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/930.jpg",
+    //     name: "Timothy Robel",
+    //     jobTitle: "Legacy Configuration Specialist",
+    //   },
+    // },
+  ],
+  cta: {
+    href: "#_",
+    label: "To view all posts",
+    lableSuffix: "click here",
+  },
+};
 export const products = [
   {
     id: "64a654593e91b8e73a351e9b",
