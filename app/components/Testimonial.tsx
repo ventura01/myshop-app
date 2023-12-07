@@ -6,7 +6,7 @@ type Props = {};
 
 const Testimonial = (props: Props) => {
   return (
-    <section id="testimonial" className="bg-light py-20">
+    <section id="testimonials" className="bg-light py-20">
       <div className="container max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-3">
         <div className="flex flex-col gap-y-8 px-5">
           <h3 className="text-4xl text-heading font-bold">

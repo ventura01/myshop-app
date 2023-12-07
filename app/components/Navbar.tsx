@@ -7,11 +7,13 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Button from "./ui/Button";
 import { List, X } from "@phosphor-icons/react";
+import { usePathname } from "next/navigation";
 
 type Props = {};
 
 const Navbar = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const path = usePathname();
   return (
     <header className="container max-w-screen-xl mx-auto py-5">
       <nav className="flex justify-between items-center mx-4 lg:mx-0">
@@ -20,12 +22,21 @@ const Navbar = (props: Props) => {
             <Image src={"/logo.svg"} width={150} height={50} alt="logo"></Image>
           </Link>
         </div>
-        <div className={`${isOpen ? 'flex flex-col gap-y-16 bg-primary w-screen h-screen lg:hidden text-white fixed left-0 top-14 justify-center items-center z-[50]' : 'hidden lg:flex gap-x-5 lg:text-heading'}`}>
+        <div
+          className={`${
+            isOpen
+              ? "flex flex-col gap-y-16 bg-primary w-screen h-screen lg:hidden text-white fixed left-0 top-14 justify-center items-center z-[50]"
+              : "hidden lg:flex gap-x-5 lg:text-heading"
+          }`}
+        >
           {navLinks.map((link) => (
             <Link
               key={link.title}
               href={link.url}
-              className="capitalize text-sm hover:text-primary"
+              className={`${
+                link.url === path && "text-secondary font-bold"
+              } first-letter:capitalize text-sm hover:text-primary`}
+              onClick={() => setIsOpen(false)}
             >
               {link.title}
             </Link>

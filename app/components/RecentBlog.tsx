@@ -17,7 +17,7 @@ const RecentBlog = (props: Props) => {
   const sliderRef = useRef<number | null>(null);
 
   return (
-    <section className="bg-light py-10 md:py-20 overflow-x-hidden">
+    <section id="blog" className="bg-light py-10 md:py-20 overflow-x-hidden">
       <div className="container max-w-screen-xl mx-auto">
         <div className="flex flex-col gap-y-8 lg:gap-y-0 lg:flex-row justify-between">
           <div className="flex flex-col gap-y-6 px-4 lg:px-0 md:w-1/3">
@@ -69,12 +69,12 @@ const RecentBlog = (props: Props) => {
                   />
                 </div>
                 <Link href={blog.featuredImage} className="cursor-pointer">
-                  <div>
+                  <div className="flex flex-col gap-y-5">
                     <h4 className="text-lg font-semibold text-heading">
                       {blog.title}
                     </h4>
                     <blockquote className="text-body ">
-                      {blog.excerpt}
+                      {blog.excerpt.substring(0, 120) + "..."}
                     </blockquote>
                   </div>
                 </Link>

@@ -1,18 +1,32 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Button from "./ui/Button";
 import Image from "next/image";
 
+
 type Props = {};
 
 const Hero = (props: Props) => {
+  
   return (
-    <section className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 py-10 md:py-20 gap-2">
+    <motion.section
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.3 }}
+      className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 py-10 md:py-20 gap-2"
+    >
       <div className="flex flex-col gap-y-8 mx-4 md:mx-10 lg:mx-0 lg:mr-10 col-start-1 col-end-3 lg:col-start-1 lg:col-end-2 mb-20 lg:mb-0 justify-center">
         <h2 className="font-bold text-heading text-lg">Welcome to FamSec</h2>
         <h1 className="text-6xl font-bold text-heading lg:text-justify">
           Protecting Families, Securing Futures
         </h1>
-        <p className="font-light text-primary text-sm text-justify">
+        {/* <motion.section
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="bg-red-500 p-5 rounded-full"
+        /> */}
+        <p className="text-body">
           We understand that protecting your loved ones is of utmost importance.
           That&apos;s why we are dedicated to providing comprehensive solutions
           tailored to your famil&apos;s unique needs. Our expert team is
@@ -98,7 +112,7 @@ const Hero = (props: Props) => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
