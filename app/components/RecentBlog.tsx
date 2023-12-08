@@ -11,11 +11,6 @@ import Link from "next/link";
 type Props = {};
 
 const RecentBlog = (props: Props) => {
-  const [setslideIndex, setSetslideIndex] = useState(0);
-  const [isEnd, setIsEnd] = useState(null);
-  const [isBeginning, setIsBeginning] = useState(null);
-  const sliderRef = useRef<number | null>(null);
-
   return (
     <section id="blog" className="bg-light py-10 md:py-20 overflow-x-hidden">
       <div className="container max-w-screen-xl mx-auto">
@@ -68,7 +63,7 @@ const RecentBlog = (props: Props) => {
                     className="rounded-lg"
                   />
                 </div>
-                <Link href={blog.featuredImage} className="cursor-pointer">
+                <Link href={`/product/${blog.id}`} className="cursor-pointer">
                   <div className="flex flex-col gap-y-5">
                     <h4 className="text-lg font-semibold text-heading">
                       {blog.title}

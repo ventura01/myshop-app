@@ -86,6 +86,7 @@ export const blogContent = {
       permaLink: "#_",
       featuredImage: "https://picsum.photos/600/280",
       title: "10 Essential Tips for Protecting Your Home from Burglaries",
+      id: 16708,
       excerpt:
         "Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.",
       author: {
@@ -98,6 +99,7 @@ export const blogContent = {
       permaLink: "#_",
       featuredImage: "https://picsum.photos/600/280",
       title: "Libero quia tempore est amet praesentium labore ad qui enim.",
+      id: 2803,
       excerpt:
         "Odit laborum nobis non voluptas esse. Quidem sed iure et. Libero facilis ratione dolores laboriosam numquam. Totam veniam delectus maiores delectus voluptatum qui provident cum. Quis et omnis veritatis est aspernatur.",
       author: {
@@ -110,6 +112,7 @@ export const blogContent = {
       permaLink: "#_",
       featuredImage: "https://picsum.photos/600/280",
       title: "Sunt rerum dicta excepturi dolore.",
+      id: 21387,
       excerpt:
         "Fugit suscipit dolorum facilis optio vel. A optio labore qui iure. Et cum et sunt veritatis et quis soluta atque. Facilis explicabo possimus ea aut a perspiciatis.",
       author: {
@@ -122,6 +125,7 @@ export const blogContent = {
     //   permaLink: "#_",
     //   featuredImage: "https://picsum.photos/600/280",
     //   title: "Odio laborum rerum qui.",
+    // id:8908,
     //   excerpt:
     //     "Ullam et numquam. Architecto non numquam quibusdam eos recusandae. Aut et alias quasi aut enim quo.",
     //   author: {
@@ -134,6 +138,7 @@ export const blogContent = {
     //   permaLink: "#_",
     //   featuredImage: "https://picsum.photos/600/280",
     //   title: "Mollitia qui vel qui nam dolorem ut aliquam modi.",
+    // id:19748,
     //   excerpt:
     //     "Eum deserunt dolor sit consequatur ea et. Sunt non minus. Neque mollitia quas commodi et magnam quia perferendis quis rem. Consectetur quam similique ipsa sit ab rerum. Veniam architecto numquam deserunt quis hic nemo officia placeat expedita. Nam ut nulla aut sit magni assumenda sit.",
     //   author: {
@@ -146,6 +151,7 @@ export const blogContent = {
     //   permaLink: "#_",
     //   featuredImage: "https://picsum.photos/600/280",
     //   title: "Delectus et autem molestiae.",
+    // id:1737,
     //   excerpt:
     //     "Laudantium repellendus dicta sit et omnis hic magni. Minima perferendis deleniti fuga sint quo eos fugit. Debitis quaerat sint ullam qui et saepe dolorem. Cumque corporis aut laborum id error vel deleniti nesciunt. Eaque iure veritatis voluptatem et quas ipsum est consequatur nihil. Cum cum aut et vel ut et molestiae numquam.",
     //   author: {
