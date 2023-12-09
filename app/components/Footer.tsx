@@ -21,10 +21,10 @@ const Footer = (props: Props) => {
   return (
     <footer
       id="info"
-      className="py-20 container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3"
+      className="py-20 container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 border-t border-slate-100"
       role="contentinfo"
     >
-      <div className="flex flex-col gap-y-16 lg:gap-y-10 lg:w-2/3 px-4 lg:px-0 py-10 lg:py-0 items-center lg:items-start">
+      <div className="flex flex-col gap-y-12 lg:gap-y-10 lg:w-2/3 px-4 lg:px-0 py-10 sm:py-0 items-center lg:items-start">
         <div>
           <Image
             src="/logo-footer.svg"
@@ -52,7 +52,7 @@ const Footer = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-5 md:py-0">
         <div className="flex flex-col gap-y-3">
           {footerLinks.map((link) => (
             <div key={link.title}>
@@ -76,7 +76,9 @@ const Footer = (props: Props) => {
       </div>
       <div className="flex flex-col-reverse lg:flex-col lg:justify-between">
         <div className="flex flex-col gap-y-3 self-center lg:self-end">
-          <h4 className="text-body text-sm self-center">Síguenos en Redes Sociales</h4>
+          <h4 className="text-body text-sm self-center font-semibold">
+            Síguenos en Redes Sociales
+          </h4>
           <div className="flex gap-x-4 lg:justify-end justify-center">
             <div className="cursor-pointer">
               <TwitterLogo size={32} color="#1D5B79" weight="fill" />
@@ -91,17 +93,19 @@ const Footer = (props: Props) => {
               <PinterestLogo size={32} color="#1D5B79" weight="fill" />
             </div>
           </div>
-          <div className="text-xs text-body font-light mt-10 lg:hidden">{new Date().getFullYear()} &copy; Todos los derechos reservados.</div>
+          <div className="text-xs text-body font-light mt-10 lg:hidden">
+            {new Date().getFullYear()} &copy; Todos los derechos reservados.
+          </div>
         </div>
         <form
           action=""
-          className="lg:self-end self-center py-10 lg:py-0 flex flex-col items-center lg:items-end"
+          className="lg:self-end self-center py-5 lg:py-10 flex flex-col items-center md:items-end"
         >
-          <label htmlFor="" className="text-body text-sm">
+          <label htmlFor="" className="text-body text-sm font-semibold">
             Suscríbete al Newsletter
           </label>
-          <div className="flex gap-x-2 py-2">
-            <div>
+          <div className="flex md:flex-col md:gap-y-2 gap-x-2 py-2">
+            <div className="">
               <input
                 type="email"
                 name="email"
@@ -115,11 +119,13 @@ const Footer = (props: Props) => {
               title="Enviar"
               btnType="submit"
               isDisabled={false}
-              buttonStyles="bg-primary"
+              buttonStyles="bg-primary md:w-full"
             />
           </div>
         </form>
-        <div className="text-xs text-body font-light self-end hidden lg:flex">{new Date().getFullYear()} &copy; Todos los derechos reservados.</div>
+        <div className="text-xs text-body font-light self-end hidden lg:flex">
+          {new Date().getFullYear()} &copy; Todos los derechos reservados.
+        </div>
       </div>
     </footer>
   );

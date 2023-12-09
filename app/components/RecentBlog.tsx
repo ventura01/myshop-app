@@ -13,7 +13,7 @@ type Props = {};
 const RecentBlog = (props: Props) => {
   return (
     <section id="blog" className="bg-light py-10 md:py-20 overflow-x-hidden">
-      <div className="container max-w-screen-xl mx-auto">
+      <div className="container max-w-screen-xl mx-auto relative">
         <div className="flex flex-col gap-y-8 lg:gap-y-0 lg:flex-row justify-between">
           <div className="flex flex-col gap-y-6 px-4 lg:px-0 md:w-1/3">
             <h3 className="text-heading font-semibold">
@@ -25,6 +25,46 @@ const RecentBlog = (props: Props) => {
             <p className="text-body leading-relaxed">
               {blogContent.heading.description}
             </p>
+          </div>
+          <div>
+            <div className="hidden lg:flex flex-col gap-y-8 absolute top-0 -right-20 lg:-translate-y-1/2 -lg:translate-x-1/2">
+              <div className="flex gap-x-8">
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                {/* <div className="h-2 w-2 bg-gray-700"></div> */}
+              </div>
+              <div className="flex gap-x-8">
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                {/* <div className="h-2 w-2 bg-gray-700"></div> */}
+              </div>
+              <div className="flex gap-x-8">
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                {/* <div className="h-2 w-2 bg-gray-700"></div> */}
+              </div>
+              <div className="flex gap-x-8">
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                <div className="h-2 w-2 bg-gray-700"></div>
+                {/* <div className="h-2 w-2 bg-gray-700"></div> */}
+              </div>
+              {/* 
+          <div className="flex gap-x-5">
+            <div className="h-2 w-2 bg-gray-700"></div>
+            <div className="h-2 w-2 bg-gray-700"></div>
+            <div className="h-2 w-2 bg-gray-700"></div>
+            <div className="h-2 w-2 bg-gray-700"></div>
+            <div className="h-2 w-2 bg-gray-700"></div>
+          </div> */}
+            </div>
           </div>
           <div className="md:w-1/3">
             <div className="flex gap-x-4 justify-center items-center h-full">

@@ -84,7 +84,7 @@ export const blogContent = {
   recentBlog: [
     {
       permaLink: "#_",
-      featuredImage: "https://picsum.photos/600/280",
+      featuredImage: "/blog-img-1.jpg",
       title: "10 Essential Tips for Protecting Your Home from Burglaries",
       id: 16708,
       excerpt:
@@ -97,7 +97,7 @@ export const blogContent = {
     },
     {
       permaLink: "#_",
-      featuredImage: "https://picsum.photos/600/280",
+      featuredImage: "/blog-img-2.jpg",
       title: "Libero quia tempore est amet praesentium labore ad qui enim.",
       id: 2803,
       excerpt:

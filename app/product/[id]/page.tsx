@@ -17,7 +17,7 @@ const SingleBlogPage = ({ params }: ProductPageProps) => {
   console.log(data);
   console.log(i);
   return (
-    <section className="h-screen">
+    <section className="min-h-[calc(100vh-373px)]">
       <div className="grid pt-10 lg:pt-32 md:pt-20 grid-cols-1 lg:grid-cols-2 container max-w-screen-xl mx-auto">
         <div className="pb-10 lg:pb-0">
           <Image
@@ -25,7 +25,7 @@ const SingleBlogPage = ({ params }: ProductPageProps) => {
             width={600}
             height={280}
             alt={data.author.name}
-            className="object-cover object-center lg:rounded-xl w-full"
+            className="object-cover object-center lg:rounded-xl h-full w-full"
           />
         </div>
         <div className="flex flex-col gap-y-8 lg:pl-10 px-4 lg:px-0 lg:max-w-lg">
