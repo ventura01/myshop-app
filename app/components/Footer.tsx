@@ -104,7 +104,7 @@ const Footer = (props: Props) => {
           <label htmlFor="" className="text-body text-sm font-semibold">
             Suscríbete al Newsletter
           </label>
-          <div className="flex sm:flex-col md:flex sm:gap-y-2 md:gap-y-2 gap-x-2 py-2">
+          <div className="flex sm:flex-col md:flex lg:flex-row sm:gap-y-2 md:gap-y-2 gap-x-2 py-2">
             <div className="">
               <input
                 type="email"

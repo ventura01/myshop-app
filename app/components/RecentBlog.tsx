@@ -9,8 +9,24 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {};
-
+const week = [
+  "domingo",
+  "lunes",
+  "martes",
+  "miercoles",
+  "jueves",
+  "viernes",
+  "sabado",
+];
+const day = new Date().getDay();
+const month = new Date().getMonth();
+const dayOfWeek = week[day];
+const year = new Date().getFullYear();
+const hours = new Date().getHours();
+const minutes = new Date().getMinutes();
+const seconds = new Date().getSeconds();
 const RecentBlog = (props: Props) => {
+  console.log(day, dayOfWeek, month, year);
   return (
     <section id="blog" className="bg-light py-10 md:py-20 overflow-x-hidden">
       <div className="container max-w-screen-xl mx-auto relative">
@@ -131,6 +147,7 @@ const RecentBlog = (props: Props) => {
                     <p className="text-xs font-semibold text-body">
                       {blog.author.jobTitle}
                     </p>
+                    <span className="text-[10px] font-semibold text-body">{`${hours}:${minutes} ${dayOfWeek} ${month}, ${year}.`}</span>
                   </div>
                 </div>
               </div>
