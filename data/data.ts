@@ -88,7 +88,7 @@ export const blogContent = {
       title: "10 Essential Tips for Protecting Your Home from Burglaries",
       id: 16708,
       excerpt:
-        "Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft.",
+        "Learn the best practices and simple steps to safeguard your home and loved ones from potential break-ins and theft. Aut quos iste esse nobis perspiciatis et iure id voluptatum. Consequatur et necessitatibus est dolorum perspiciatis odit. Aspernatur dolorum at est non dolor aliquam id nihil. Magni quaerat dolor ex ea. Optio maxime quaerat consequatur quasi. Officia maxime dolor deserunt. Distinctio sint rem mollitia ullam quibusdam dolorem cumque sed enim. Necessitatibus nobis deleniti magni aspernatur hic. Id doloribus itaque. Asperiores incidunt asperiores amet nulla omnis consequuntur ab. Quia omnis molestiae nemo consequatur excepturi praesentium et iste magnam. In repellendus maxime rerum ipsum beatae nam. Aut nostrum facere aliquam at quia dolore. Sapiente sunt rerum qui quisquam accusamus laudantium esse est autem.",
       author: {
         img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1055.jpg",
         name: "Pete Goyette",
@@ -101,7 +101,7 @@ export const blogContent = {
       title: "Libero quia tempore est amet praesentium labore ad qui enim.",
       id: 2803,
       excerpt:
-        "Odit laborum nobis non voluptas esse. Quidem sed iure et. Libero facilis ratione dolores laboriosam numquam. Totam veniam delectus maiores delectus voluptatum qui provident cum. Quis et omnis veritatis est aspernatur.",
+        "Odit laborum nobis non voluptas esse. Quidem sed iure et. Libero facilis ratione dolores laboriosam numquam. Totam veniam delectus maiores delectus voluptatum qui provident cum. Quis et omnis veritatis est aspernatur. Officia dolores tenetur. Aperiam natus rerum. Ducimus est velit qui ex sit fugiat modi quia non. Accusantium est ex laborum. Ullam beatae officiis. Cum tempora facere necessitatibus quibusdam ratione neque. Molestias molestias ullam non amet labore impedit voluptas. Ullam reiciendis quaerat accusamus accusantium. Dolore ut ut quae amet. Ad ipsum animi et magni illum perspiciatis. Ex aut quasi a eveniet iusto beatae distinctio eius vitae. Itaque placeat perferendis. Odit officia cum et numquam. Omnis est blanditiis molestias ut voluptas aut.",
       author: {
         img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1099.jpg",
         name: "Molly Bednar Jr.",
@@ -114,7 +114,7 @@ export const blogContent = {
       title: "Sunt rerum dicta excepturi dolore.",
       id: 21387,
       excerpt:
-        "Fugit suscipit dolorum facilis optio vel. A optio labore qui iure. Et cum et sunt veritatis et quis soluta atque. Facilis explicabo possimus ea aut a perspiciatis.",
+        "Fugit suscipit dolorum facilis optio vel. A optio labore qui iure. Et cum et sunt veritatis et quis soluta atque. Facilis explicabo possimus ea aut a perspiciatis. Optio similique debitis. Quibusdam aperiam mollitia magni qui minus. Deserunt nobis sed voluptate sed nobis. Voluptatem voluptate provident cum dolorem in quasi reiciendis at. Nobis ea aspernatur magnam aut vel autem eveniet. Ullam consequuntur quia nisi accusantium. Nulla dolor sint rerum odio et deserunt eveniet. Non qui placeat officiis pariatur. Placeat repellat expedita aut enim dolor qui pariatur. Minus nihil exercitationem quibusdam et placeat. Deleniti optio officia occaecati qui aliquid. Aperiam blanditiis omnis ut rerum aut et adipisci. Praesentium incidunt dolores quidem distinctio. Facere ea cupiditate quia. Repellat qui et aut et et.",
       author: {
         img: "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/385.jpg",
         name: "Holly Erdman MD",

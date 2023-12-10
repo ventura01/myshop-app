@@ -76,7 +76,7 @@ const Footer = (props: Props) => {
       </div>
       <div className="flex flex-col-reverse lg:flex-col lg:justify-between">
         <div className="flex flex-col gap-y-3 self-center lg:self-end">
-          <h4 className="text-body text-sm self-center font-semibold">
+          <h4 className="text-body text-sm self-center md:self-end font-semibold">
             Síguenos en Redes Sociales
           </h4>
           <div className="flex gap-x-4 lg:justify-end justify-center">
@@ -93,18 +93,18 @@ const Footer = (props: Props) => {
               <PinterestLogo size={32} color="#1D5B79" weight="fill" />
             </div>
           </div>
-          <div className="text-xs text-body font-light mt-10 lg:hidden">
+          <div className="text-xs text-body font-light mt-5 lg:hidden">
             {new Date().getFullYear()} &copy; Todos los derechos reservados.
           </div>
         </div>
         <form
           action=""
-          className="lg:self-end self-center py-5 lg:py-10 flex flex-col items-center md:items-end"
+          className="lg:self-end self-center py-5 sm:py-0 lg:py-5 flex flex-col items-center md:items-end"
         >
           <label htmlFor="" className="text-body text-sm font-semibold">
             Suscríbete al Newsletter
           </label>
-          <div className="flex md:flex-col md:gap-y-2 gap-x-2 py-2">
+          <div className="flex sm:flex-col md:flex sm:gap-y-2 md:gap-y-2 gap-x-2 py-2">
             <div className="">
               <input
                 type="email"

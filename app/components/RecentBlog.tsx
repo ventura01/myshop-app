@@ -87,6 +87,7 @@ const RecentBlog = (props: Props) => {
             </div>
           </div>
         </div>
+        {/* COLUMNA #2 */}
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-3 lg:gap-y-0 gap-x-0 lg:gap-x-3 pt-10">
             {blogContent.recentBlog.map((blog) => (

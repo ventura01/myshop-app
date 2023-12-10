@@ -91,7 +91,7 @@ const Testimonial = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className="flex gap-y-8 flex-col">
+        <div className="flex gap-y-8 flex-col px-5 lg:px-0">
           <div className="bg-orange-500 rounded-2xl rounded-tr-[200px] w-20 h-20 hidden lg:flex"></div>
           <div className="bg-white rounded-lg flex flex-col gap-y-3 p-8">
             <div className="flex relative items-center gap-x-3">
