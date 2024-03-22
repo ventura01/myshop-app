@@ -108,7 +108,7 @@ const Footer = (props: Props) => {
           <label htmlFor="" className="text-body text-sm font-semibold">
             Suscríbete al Newsletter
           </label>
-          <div className="flex sm:flex-col md:flex lg:flex-row sm:gap-y-2 md:gap-y-2 gap-x-2 py-2">
+          <div className="flex flex-col md:flex lg:flex-row sm:gap-y-0 md:gap-y-2 gap-y-2 sm:gap-x-2 py-2">
             <div className="">
               <input
                 type="email"
@@ -116,14 +116,14 @@ const Footer = (props: Props) => {
                 id="email"
                 placeholder="micorreo@correo.com"
                 autoComplete="email"
-                className="border-gray-300 rounded-md shadow-sm focus:border-teal-600 focus:ring-teal-600"
+                className="border-gray-300 rounded-md shadow-sm w-full focus:border-teal-600 focus:ring-teal-600"
               />
             </div>
             <Button
               title="Enviar"
               btnType="submit"
               isDisabled={false}
-              buttonStyles="bg-primary md:w-full"
+              buttonStyles="bg-primary"
             />
           </div>
         </form>

@@ -25,7 +25,7 @@ const Products = (props: Props) => {
           <h4 className="text-center font-semibold text-heading">
             {servicesContent.heading.headingSubtitle}
           </h4>
-          <h3 className="text-center font-bold text-heading text-5xl">
+          <h3 className="text-center font-bold text-heading text-4xl">
             {servicesContent.heading.headingTitle}
           </h3>
           <p className="leading-relaxed text-body text-justify">
@@ -34,8 +34,8 @@ const Products = (props: Props) => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {servicesContent.items.map((item) => (
-            <div key={item.title} className="relative p-5 flex gap-3">
-              <div className="w-1/6">
+            <div key={item.title} className="relative p-2 sm:p-5 flex flex-col items-center sm:items-start sm:flex-row gap-3">
+              <div className="sm:w-1/6">
                 <Image
                   src={item.icon}
                   width={72}
@@ -44,7 +44,7 @@ const Products = (props: Props) => {
                   alt={item.title}
                 />
               </div>
-              <div className="w-5/6 flex flex-col gap-y-1">
+              <div className="sm:w-5/6 flex flex-col gap-y-1">
                 <h4 className="font-semibold text-primary">{item.title}</h4>
                 <p className="text-heading text-justify">{item.description}</p>
               </div>
