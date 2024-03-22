@@ -9,7 +9,7 @@ const TermsAndConditions = (props: Props) => {
         Términos y Condiciones de Uso
       </h1>
       <p className="text-gray-600 my-2">
-        Bienvenido a [Nombre de la Farmacia]. Antes de utilizar nuestro sitio
+        Bienvenido a Farmacia Zulma. Antes de utilizar nuestro sitio
         web, te pedimos que leas detenidamente estos Términos y Condiciones de
         Uso. Al acceder y utilizar nuestro sitio web, aceptas cumplir y estar
         sujeto a estos términos. Si no estás de acuerdo con alguna parte de

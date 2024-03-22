@@ -33,7 +33,7 @@ const Hero = (props: Props) => {
         </p>
         <div className="flex gap-x-3 items-center justify-center lg:justify-start">
           <Button
-            title="Comprar ahora!"
+            title="Llame ahora!"
             buttonStyles="bg-primary hover:bg-[#134761]"
             btnType="button"
             isDisabled={false}

@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import Button from "./ui/Button";
-import { List, Phone, X } from "@phosphor-icons/react";
+import { List, Phone, WhatsappLogo, X } from "@phosphor-icons/react";
 import { usePathname } from "next/navigation";
 
 type Props = {};
@@ -57,16 +57,22 @@ const Navbar = (props: Props) => {
             ))}
           </div>
           <div>
-            <div className="hidden lg:flex flex-col justify-center items-center bg-primary px-3 py-2 rounded-sm">
-              <div>
-                <p className="text-white font-semibold">Servicio Delivery</p>
-              </div>
+            <div className="hidden md:block flex-col justify-center items-center bg-primary px-3 py-2 rounded-2xl">
+              {/* <div>
+            <p className="text-white font-semibold">Servicio Delivery</p>
+          </div> */}
               <div className="flex gap-x-1 items-center">
-                <div>
+                <div className="border-2 border-white rounded-full p-1">
                   <Phone size={24} weight="fill" className="fill-white" />
                 </div>
                 <p className="text-white font-semibold text-lg uppercase">
                   2222-5555
+                </p>
+                <div className="cursor-pointer">
+                  <WhatsappLogo size={44} color="#ffffff" weight="regular" />
+                </div>
+                <p className="text-white font-semibold text-lg uppercase">
+                  8888-5555
                 </p>
               </div>
             </div>
@@ -88,6 +94,29 @@ const Navbar = (props: Props) => {
             </button>
           </div>
         </nav>
+        <div className="sm:hidden flex-col justify-center items-center bg-primary px-3 py-2 rounded-2xl">
+          {/* <div>
+            <p className="text-white font-semibold">Servicio Delivery</p>
+          </div> */}
+          <div className="flex gap-x-2 justify-center items-center">
+            <div className="flex items-center gap-x-2">
+              <div className="border-2 border-white rounded-full p-1">
+                <Phone size={24} weight="fill" className="fill-white" />
+              </div>
+              <p className="text-white font-bold">
+                2222-5555
+              </p>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <div className="cursor-pointer">
+                <WhatsappLogo size={44} color="#ffffff" weight="regular" />
+              </div>
+              <p className="text-white font-bold">
+                8888-5555
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   );
