@@ -5,7 +5,7 @@ import { delay, motion } from "framer-motion";
 
 type Props = {};
 
-const Services = (props: Props) => {
+const Products = (props: Props) => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -21,14 +21,14 @@ const Services = (props: Props) => {
       className="bg-light py-10 md:py-20 px-4 lg:px-0"
     >
       <div className="container max-w-screen-xl mx-auto">
-        <div className="flex flex-col gap-y-5 pb-10 max-w-lg mx-auto">
+        <div className="flex flex-col gap-y-5 pb-10 max-w-2xl mx-auto">
           <h4 className="text-center font-semibold text-heading">
             {servicesContent.heading.headingSubtitle}
           </h4>
           <h3 className="text-center font-bold text-heading text-5xl">
             {servicesContent.heading.headingTitle}
           </h3>
-          <p className="leading-relaxed text-body text-center">
+          <p className="leading-relaxed text-body text-justify">
             {servicesContent.heading.description}
           </p>
         </div>
@@ -56,4 +56,4 @@ const Services = (props: Props) => {
   );
 };
 
-export default Services;
+export default Products;

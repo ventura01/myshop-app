@@ -13,6 +13,7 @@ import {
   Phone,
   PinterestLogo,
   TwitterLogo,
+  WhatsappLogo,
 } from "@phosphor-icons/react";
 
 type Props = {};
@@ -26,12 +27,15 @@ const Footer = (props: Props) => {
     >
       <div className="flex flex-col gap-y-12 lg:gap-y-10 lg:w-2/3 px-4 lg:px-0 py-10 sm:py-0 items-center lg:items-start">
         <div>
-          <Image
+          {/* <Image
             src="/logo-footer.svg"
             width={48}
             height={48}
             alt="logo-footer"
-          />
+          /> */}
+          <p className="text-2xl uppercase font-semibold text-gray-700">
+            farmacia <span className="font-light text-gray-500">zulma</span>
+          </p>
         </div>
         <div className="flex flex-col gap-y-3">
           <div className="flex gap-x-3 items-center">
@@ -40,14 +44,14 @@ const Footer = (props: Props) => {
           </div>
           <div className="flex gap-x-3 items-center">
             <Envelope size={20} color="#1D5B79" weight="fill" />
-            <p className="text-body text-sm">empresa@correo.com</p>
+            <p className="text-body text-sm">info@farmaciazulma.com</p>
           </div>
           <div className="flex gap-x-3 items-start">
             <MapPin size={20} color="#1D5B79" weight="fill" />
             <p className="text-body text-sm">
-              58339 Gregorio Port
+              Del Banco Avanz 1C. al Este.
               <br />
-              Grand Rapids, Bangladesh.
+              Jalapa, Nueva Segovia.
             </p>
           </div>
         </div>
@@ -90,7 +94,7 @@ const Footer = (props: Props) => {
               <InstagramLogo size={32} color="#1D5B79" weight="fill" />
             </div>
             <div className="cursor-pointer">
-              <PinterestLogo size={32} color="#1D5B79" weight="fill" />
+              <WhatsappLogo size={32} color="#1D5B79" weight="fill" />
             </div>
           </div>
           <div className="text-xs text-body font-light mt-5 lg:hidden">
@@ -110,7 +114,7 @@ const Footer = (props: Props) => {
                 type="email"
                 name="email"
                 id="email"
-                placeholder="juan@correo.com"
+                placeholder="micorreo@correo.com"
                 autoComplete="email"
                 className="border-gray-300 rounded-md shadow-sm focus:border-teal-600 focus:ring-teal-600"
               />

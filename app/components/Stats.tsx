@@ -21,46 +21,7 @@ const Stats = (props: Props) => {
       className="container max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-5 justify-center items-center py-10 md:py-20 relative"
     >
       {/* <h3 className="text-heading font-semibold text-lg">Our Stadistics</h3> */}
-      <div>
-        <div className="hidden lg:flex flex-col gap-y-8 absolute top-0 -left-20 lg:-translate-y-1/2 -lg:translate-x-1/2">
-          <div className="flex gap-x-8">
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            {/* <div className="h-2 w-2 bg-gray-700"></div> */}
-          </div>
-          <div className="flex gap-x-8">
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            {/* <div className="h-2 w-2 bg-gray-700"></div> */}
-          </div>
-          <div className="flex gap-x-8">
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            {/* <div className="h-2 w-2 bg-gray-700"></div> */}
-          </div>
-          <div className="flex gap-x-8">
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            {/* <div className="h-2 w-2 bg-gray-700"></div> */}
-          </div>
-          {/* 
-          <div className="flex gap-x-5">
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-            <div className="h-2 w-2 bg-gray-700"></div>
-          </div> */}
-        </div>
-      </div>
+      
       <div className="flex flex-col gap-y-3 row-start-1 row-end-2 lg:row-start-1 lg:row-end-2 col-start-1 col-end-6 lg:col-start-1 lg:col-end-2 items-center py-10 lg:py-0">
         <div className="flex items-center text-4xl text-primary font-black">
           <motion.h3 className="text-4xl text-primary font-black">

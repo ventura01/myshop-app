@@ -1,74 +1,74 @@
 export const navLinks = [
   { title: "inicio", url: "/" },
-  { title: "contact", url: "/contact" },
-  { title: "servicios", url: "#services" },
-  { title: "solutions", url: "#solutions" },
-  { title: "testimonios", url: "#testimonials" },
-  { title: "blog", url: "#blog" },
-  // { title: "ayuda", url: "/help" },
+  // { title: "servicios", url: "#services" },
+  // { title: "soluciones", url: "#solutions" },
+  // { title: "testimonios", url: "#testimonials" },
+  // { title: "blog", url: "#blog" },
+  { title: "contacto", url: "/contact" },
+  { title: "info", url: "#info" },
 ];
 
 export const footerLinks = [
   {
     title: "acerca",
     links: [
-      { title: "preguntas frecuentes", url: "/faq" },
-      { title: "centro de ayuda", url: "/" },
-      { title: "blog", url: "/" },
-      { title: "términos y condiciones", url: "/" },
-      { title: "política de privacidad", url: "/" },
+      // { title: "preguntas frecuentes", url: "/faq" },
+      // { title: "centro de ayuda", url: "/help" },
+      // { title: "blog", url: "/" },
+      { title: "términos y condiciones", url: "/conditions" },
+      { title: "política de privacidad", url: "/privacy" },
     ],
   },
   {
     title: "empresa",
     links: [
       { title: "eventos", url: "/" },
-      { title: "socios comerciales", url: "/" },
+      // { title: "socios comerciales", url: "/" },
       { title: "historia", url: "/" },
     ],
   },
 ];
 export const servicesContent = {
   heading: {
-    headingSubtitle: "Our Awesome Services",
-    headingTitle: "Our Services",
+    headingSubtitle: "Productos de la mejor calidad",
+    headingTitle: "Nuestros Productos",
     description:
-      "We understand that protecting your loved ones is of utmost importance. That's why we are dedicated to providing comprehensive solutions tailored to your family's unique needs.",
+      "Nos enorgullece ofrecer una amplia gama de productos farmacéuticos de alta calidad, desde medicamentos recetados hasta productos de venta libre y artículos de cuidado personal. Ya sea que estés buscando alivio para un resfriado común, controlar una condición crónica o simplemente mejorar tu bienestar general, tenemos todo lo que necesitas bajo un mismo techo.",
   },
   items: [
     {
       icon: "/icon-1.svg",
-      title: "Child Safety Solutions",
+      title: "Analgésicos",
       description:
         "Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
     },
     {
       icon: "/icon-2.svg",
-      title: "Elderly Care Monitoring",
+      title: "Anestésicos",
       description:
         "Innovative technologies for monitoring and caring for elderly family members, promoting their safety and independence.",
     },
     {
       icon: "/icon-3.svg",
-      title: "Home Fire Safety",
+      title: "Ansiolíticos",
       description:
         "Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
     },
     {
       icon: "/icon-4.svg",
-      title: "Financial Planning",
+      title: "Antibióticos",
       description:
         "Expert financial advice to help you build a strong financial foundation and plan for your family's long-term security.",
     },
     {
       icon: "/icon-5.svg",
-      title: "Personal Safety Devices",
+      title: "Anticonceptivos",
       description:
         "Wearable personal safety devices equipped with GPS tracking and emergency alerts for family members on the go.",
     },
     {
       icon: "/icon-6.svg",
-      title: "Insurance Coverage",
+      title: "Anticolinérgicos",
       description:
         "Tailored insurance policies to protect your family's financial future, including life insurance, health insurance, and property insurance.",
     },

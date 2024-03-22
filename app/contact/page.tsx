@@ -18,7 +18,7 @@ const ContactPage = (props: Props) => {
         "service_vusdmip",
         "template_cek0xk8",
         form.current,
-        "bDmkSx0wAL06Z43ZT"
+        "bDmkSx0wAL06Z43ZT",
       )
       .then(
         (result) => {
@@ -32,7 +32,7 @@ const ContactPage = (props: Props) => {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
   };
 
@@ -60,6 +60,7 @@ const ContactPage = (props: Props) => {
               type="text"
               name="user_name"
               id="name"
+              required
               placeholder="Juan Perez"
               className="rounded-lg focus:border-primary border-gray-300 focus:ring-2 focus:ring-secondary text-sm text-heading"
             />
@@ -72,6 +73,7 @@ const ContactPage = (props: Props) => {
               type="email"
               name="user_email"
               id="email"
+              required
               placeholder="juan@correo.com"
               className="rounded-lg focus:border-primary border-gray-300 focus:ring-2 focus:ring-secondary text-sm text-heading"
             />

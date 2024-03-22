@@ -5,6 +5,9 @@
 html {
   scroll-behavior: smooth !important;
 }
+body{
+  padding-top: 60px;
+}
 ::selection{
     background-color: rgba(74, 47, 189, .08);
 }
