@@ -24,15 +24,16 @@ const Navbar = (props: Props) => {
         <nav className="flex justify-between items-center mx-4 lg:mx-0">
           <div>
             <Link href="/">
-              {/* <Image
+              <Image
                 src={"/logo.svg"}
-                width={150}
-                height={50}
+                width={260}
+                height={80}
                 alt="logo"
-              ></Image> */}
-              <p className="text-lg uppercase font-semibold text-gray-700">
+                priority
+              ></Image>
+              {/* <p className="text-lg uppercase font-semibold text-gray-700">
                 farmacia <span className="font-light text-gray-500">zulma</span>
-              </p>
+              </p> */}
             </Link>
           </div>
           <div

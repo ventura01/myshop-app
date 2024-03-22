@@ -27,15 +27,15 @@ const Footer = (props: Props) => {
     >
       <div className="flex flex-col gap-y-12 lg:gap-y-10 lg:w-2/3 px-4 lg:px-0 py-10 sm:py-0 items-center lg:items-start">
         <div>
-          {/* <Image
+          <Image
             src="/logo-footer.svg"
-            width={48}
-            height={48}
+            width={260}
+            height={80}
             alt="logo-footer"
-          /> */}
-          <p className="text-2xl uppercase font-semibold text-gray-700">
+          />
+          {/* <p className="text-2xl uppercase font-semibold text-gray-700">
             farmacia <span className="font-light text-gray-500">zulma</span>
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-col gap-y-3">
           <div className="flex gap-x-3 items-center">
