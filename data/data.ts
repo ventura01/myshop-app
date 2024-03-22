@@ -33,7 +33,7 @@ export const servicesContent = {
     headingSubtitle: "Productos de la mejor calidad",
     headingTitle: "Nuestros Productos",
     description:
-      "Nos enorgullece ofrecer una amplia gama de productos farmacéuticos de alta calidad, desde medicamentos recetados hasta productos de venta libre y artículos de cuidado personal. Ya sea que estés buscando alivio para un resfriado común, controlar una condición crónica o simplemente mejorar tu bienestar general, tenemos todo lo que necesitas bajo un mismo techo.",
+      "Ofrecemos una amplia gama de productos farmacéuticos de alta calidad, desde medicamentos recetados hasta productos de venta libre y artículos de cuidado personal. Ya sea que estés buscando alivio para un resfriado común, controlar una condición crónica o simplemente mejorar tu bienestar general, tenemos todo lo que necesitas bajo un mismo techo.",
   },
   items: [
     {

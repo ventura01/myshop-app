@@ -5,86 +5,83 @@ type Props = {};
 const TermsAndConditions = (props: Props) => {
   return (
     <div className="container max-w-screen-lg mx-auto my-20">
-      <h1 className="text-heading text-2xl text-center mb-5 font-bold">
+      <h1 className="text-xl text-gray-800 font-bold mb-3">
         Términos y Condiciones de Uso
       </h1>
-      <h2 className="text-heading text-lg font-semibold mb-1">INFORMACIÓN RELEVANTE</h2>
-      <p className="text-body mb-2">
-        Es requisito necesario para la adquisición de los servicios que se
-        ofrecen en este sitio, que lea y acepte los siguientes Términos y
-        Condiciones que a continuación se redactan. El uso de nuestros servicios
-        implicará que usted ha leído y aceptado los{" "}
-        <strong>Términos y Condiciones de Uso en el presente documento</strong>.
-        Todas los servicios que son ofrecidos por nuestro sitio web pudieran ser
-        creadas, cobradas, enviadas o presentadas por una página web tercera y
-        en tal caso estarían sujetas a sus propios Términos y Condiciones. En
-        algunos casos, para adquirir un servicio, será necesario el registro por
-        parte del usuario, con ingreso de datos personales fidedignos y
-        definición de una contraseña. El usuario puede elegir y cambiar la clave
-        para su acceso de administración de la cuenta en cualquier momento, en
-        caso de que se haya registrado y que sea necesario para la solicitud de
-        alguno de nuestros servicios. Best Reference México no asume la
-        responsabilidad en caso de que entregue dicha clave a terceros. Todas
-        las compras y transacciones que se lleven a cabo por medio de este sitio
-        web, están sujetas a un proceso de confirmación y verificación, el cual
-        podría incluir la verificación y disponibilidad de producto, validación
-        de la forma de pago, validación de la factura (en caso de existir) y el
-        cumplimiento de las condiciones requeridas por el medio de pago
-        seleccionado. En algunos casos puede que se requiera una verificación
-        por medio de correo electrónico. Los precios de los servicios ofrecidos
-        en este Sitio Web es válido solamente en las compras realizadas en este
-        sitio web.
+      <p className="text-gray-600 my-2">
+        Bienvenido a [Nombre de la Farmacia]. Antes de utilizar nuestro sitio
+        web, te pedimos que leas detenidamente estos Términos y Condiciones de
+        Uso. Al acceder y utilizar nuestro sitio web, aceptas cumplir y estar
+        sujeto a estos términos. Si no estás de acuerdo con alguna parte de
+        estos términos, te recomendamos que no utilices nuestro sitio web.
       </p>
-      <h2 className="text-heading text-lg font-semibold mb-1">LICENCIA</h2>
-      <p className="text-body mb-2">
-        Best Reference México a través de su sitio web concede una licencia
-        específica por un lapso de tiempo definido para que los usuarios
-        utilicen los servicios con el fin de lograr la acreditación de acuerdo a
-        los Términos y Condiciones que se describen en este documento.
+      <h2 className="font-semibold text-gray-800 mt-2">Uso del Sitio Web</h2>
+      <p className="text-gray-600 my-2">
+        El contenido de este sitio web es solo para fines informativos y no
+        constituye asesoramiento médico ni sustituye la consulta con un
+        profesional de la salud. No nos hacemos responsables de ninguna decisión
+        tomada en base a la información proporcionada en este sitio.
       </p>
-      <h2 className="text-heading text-lg font-semibold mb-1">USO NO AUTORIZADO</h2>
-      <p className="text-body mb-2">
-        En caso de que aplique (para venta de software, templetes, u otro
-        producto de diseño y programación) usted no puede colocar uno de
-        nuestros productos, modificado o sin modificar, en un CD, sitio web o
-        ningún otro medio y ofrecerlos para la redistribución o la reventa de
-        ningún tipo.
+      <h2 className="font-semibold text-gray-800 mt-2">
+        Registro y Cuenta de Usuario
+      </h2>
+      <p className="text-gray-600 my-2">
+        Para acceder a ciertas áreas o servicios de nuestro sitio web, es
+        posible que necesites registrarte y crear una cuenta de usuario. Es tu
+        responsabilidad proporcionar información precisa y mantener la
+        confidencialidad de tu cuenta y contraseña. Aceptas notificarnos de
+        inmediato cualquier uso no autorizado de tu cuenta.
       </p>
-      <h2 className="text-heading text-lg font-semibold mb-1">PROPIEDAD</h2>
-      <p className="text-body mb-2">
-        Usted no puede declarar propiedad intelectual o exclusiva a ninguno de
-        nuestros productos, modificado o sin modificar. Todos los servicios son
-        propiedad de los proveedores del contenido. En caso de que no se
-        especifique lo contrario, nuestros servicios se proporcionan sin ningún
-        tipo de garantía, expresa o implícita. En ningún momento esta compañía
-        será responsable de ningún daño incluyendo, pero no limitado a, daños
-        directos, indirectos, especiales, fortuitos o consecuentes u otras
-        pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros
-        servicios.
+      <h2 className="font-semibold text-gray-800 mt-2">
+        Propiedad Intelectual
+      </h2>
+      <p className="text-gray-600 my-2">
+        Todo el contenido y materiales disponibles en este sitio web,
+        incluyendo, entre otros, texto, gráficos, logotipos, imágenes y
+        software, están protegidos por leyes de propiedad intelectual y son
+        propiedad de Farmacia Zulma o sus licenciantes. No tienes permiso para
+        utilizar, copiar, reproducir, modificar, distribuir o transmitir ninguno
+        de los contenidos de este sitio sin nuestro consentimiento previo por
+        escrito.
       </p>
-      <h2 className="text-heading text-lg font-semibold mb-1">REEMBOLSO Y GARANTÍA</h2>
-      <p className="text-body mb-2">
-        Una vez concluido el servicio solicitado, no realizamos reembolsos
-        después de que se envíen los resultados, usted tiene la responsabilidad
-        de entender antes de solicitarlo. Le pedimos que lea cuidadosamente
-        antes de solicitarlo. Hacemos solamente excepciones con esta regla
-        cuando la descripción no se ajusta al servicio prestado. Hay algunos
-        servicios que pudieran tener garantía y posibilidad de reembolso pero
-        este será especificado al comprar el producto. En tales casos la
-        garantía sólo se hará efectiva cuando el software se haya usado
-        correctamente. La garantía no cubre averías o daños ocasionados por uso
-        indebido. Los términos de la garantía están asociados a fallas de origen
-        y funcionamiento en condiciones normales de los servicios y sólo se
-        harán efectivos estos términos si el software ha sido usado
-        correctamente.
+      <h2 className="font-semibold text-gray-800 mt-2">
+        Enlaces a Sitios de Terceros
+      </h2>
+      <p className="text-gray-600 my-2">
+        Nuestro sitio web puede contener enlaces a sitios web de terceros que no
+        están controlados por nosotros. No nos hacemos responsables del
+        contenido, la precisión o las prácticas de privacidad de estos sitios
+        web. El acceso y uso de cualquier sitio web de terceros se rige por los
+        términos y condiciones de uso y las políticas de privacidad de ese
+        sitio.
       </p>
-      <h2 className="text-heading text-lg font-semibold mb-1">PRIVACIDAD</h2>
-      <p className="text-body mb-2">
-        Best Reference México garantiza que la información personal que usted
-        envía cuenta con la seguridad necesaria. Puede revisar más a detalle en
-        nuestra POLÍTICA DE PRIVACIDAD Best Reference México reserva los
-        derechos de cambiar o de modificar estos términos sin previo aviso.
+      <h2 className="font-semibold text-gray-800 mt-2">
+        Limitación de Responsabilidad
+      </h2>
+      <p className="text-gray-600 my-2">
+        En la medida máxima permitida por la ley, Farmacia Zulma y sus afiliados
+        no serán responsables por ningún daño directo, indirecto, incidental,
+        especial, consecuente o punitivo que surja del uso o la imposibilidad de
+        utilizar este sitio web.
       </p>
+      <h2 className="font-semibold text-gray-800 mt-2">
+        Cambios en los Términos y Condiciones
+      </h2>
+      <p className="text-gray-600 my-2">
+        Nos reservamos el derecho de actualizar o modificar estos Términos y
+        Condiciones en cualquier momento. Cualquier cambio entrará en vigencia
+        inmediatamente después de su publicación en nuestro sitio web. Te
+        recomendamos que revises periódicamente esta página para estar al tanto
+        de cualquier cambio.
+      </p>
+      <h2 className="font-semibold text-gray-800 mt-2">Contacto</h2>
+      <p className="text-gray-600 my-2">
+        Si tienes alguna pregunta o inquietud sobre estos Términos y Condiciones
+        de Uso, no dudes en ponerte en contacto con nosotros a través de
+        info@farmaciazulma.com o 2222-5555.
+      </p>
+      <p className="text-gray-600 my-2">Gracias por elegir Farmacia Zulma.</p>
+      <p className="text-gray-600 my-2">Fecha de Entrada en Vigor: [Fecha]</p>
     </div>
   );
 };
