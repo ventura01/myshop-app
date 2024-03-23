@@ -26,7 +26,7 @@ const Footer = (props: Props) => {
       role="contentinfo"
     >
       <div className="flex flex-col gap-y-12 lg:gap-y-10 lg:w-2/3 px-4 lg:px-0 py-10 sm:py-0 items-center lg:items-start">
-        <div>
+        <Link href={'/'}>
           <Image
             src="/logo-footer.svg"
             width={260}
@@ -36,7 +36,7 @@ const Footer = (props: Props) => {
           {/* <p className="text-2xl uppercase font-semibold text-gray-700">
             farmacia <span className="font-light text-gray-500">zulma</span>
           </p> */}
-        </div>
+        </Link>
         <div className="flex flex-col gap-y-3">
           <div className="flex gap-x-3 items-center">
             <Phone size={20} color="#1D5B79" weight="fill" />
@@ -44,7 +44,7 @@ const Footer = (props: Props) => {
           </div>
           <div className="flex gap-x-3 items-center">
             <Envelope size={20} color="#1D5B79" weight="fill" />
-            <p className="text-body text-sm">info@farmaciazulma.com</p>
+            <p className="text-body text-sm">info@farmaciazulmita.com</p>
           </div>
           <div className="flex gap-x-3 items-start">
             <MapPin size={20} color="#1D5B79" weight="fill" />
@@ -85,16 +85,16 @@ const Footer = (props: Props) => {
           </h4>
           <div className="flex gap-x-4 lg:justify-end justify-center">
             <div className="cursor-pointer">
-              <TwitterLogo size={32} color="#1D5B79" weight="fill" />
+              <TwitterLogo size={32} color="#1D5B79" weight="fill" className="hover:fill-secondary"/>
             </div>
             <div className="cursor-pointer">
-              <MetaLogo size={32} color="#1D5B79" weight="fill" />
+              <MetaLogo size={32} color="#1D5B79" weight="fill" className="hover:fill-secondary"/>
             </div>
             <div className="cursor-pointer">
-              <InstagramLogo size={32} color="#1D5B79" weight="fill" />
+              <InstagramLogo size={32} color="#1D5B79" weight="fill" className="hover:fill-secondary"/>
             </div>
             <div className="cursor-pointer">
-              <WhatsappLogo size={32} color="#1D5B79" weight="fill" />
+              <WhatsappLogo size={32} color="#1D5B79" weight="fill" className="hover:fill-secondary"/>
             </div>
           </div>
           <div className="text-xs text-body font-light mt-5 lg:hidden">

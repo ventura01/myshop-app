@@ -32,8 +32,8 @@ export const footerLinks = [
 ];
 export const servicesContent = {
   heading: {
-    headingSubtitle: "Productos de la mejor calidad",
-    headingTitle: "Nuestros Productos",
+    headingSubtitle: "Medicamentos",
+    headingTitle: "Categorías terapéuticas",
     description:
       "Ofrecemos una amplia gama de productos farmacéuticos de alta calidad, desde medicamentos recetados hasta productos de venta libre y artículos de cuidado personal. Ya sea que estés buscando alivio para un resfriado común, controlar una condición crónica o simplemente mejorar tu bienestar general, tenemos todo lo que necesitas bajo un mismo techo.",
   },

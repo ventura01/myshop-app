@@ -57,7 +57,7 @@ const Navbar = (props: Props) => {
             ))}
           </div>
           <div>
-            <div className="hidden md:block flex-col justify-center items-center bg-primary px-3 py-2 rounded-2xl">
+            <div className="hidden lg:block flex-col justify-center items-center bg-primary px-3 py-2 rounded-2xl">
               {/* <div>
             <p className="text-white font-semibold">Servicio Delivery</p>
           </div> */}

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import Button from "./ui/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {};
 
@@ -31,19 +32,23 @@ const Hero = (props: Props) => {
           farmacéuticos está aquí para ofrecerte un servicio excepcional y
           asesoramiento personalizado.
         </p>
-        <div className="flex gap-x-3 items-center justify-center lg:justify-start">
-          <Button
-            title="Llame ahora!"
-            buttonStyles="bg-primary hover:bg-[#134761]"
-            btnType="button"
-            isDisabled={false}
-          />
-          <Button
-            title="Saber más..."
-            buttonStyles="bg-secondary hidden sm:block hover:bg-[#249693]"
-            btnType="button"
-            isDisabled={false}
-          />
+        <div className="flex flex-col md:flex-row gap-y-3 md:gap-y-0 md:gap-x-3 items-center justify-center lg:justify-start">
+            <Link href="#info" className="w-full md:w-auto">
+              <Button
+                title="Llame ahora!"
+                buttonStyles="bg-primary w-full md:w-auto hover:bg-[#134761]"
+                btnType="button"
+                isDisabled={false}
+              />
+            </Link>
+          <Link href="#medicine" className="w-full md:w-auto">
+            <Button
+              title="Saber más..."
+              buttonStyles="bg-secondary w-full md:w-auto hover:bg-[#249693]"
+              btnType="button"
+              isDisabled={false}
+            />
+          </Link>
         </div>
       </div>
       <div className="grid grid-cols-12 gap-2 col-start-1 col-end-3 lg:col-start-2 lg:col-end-3 mx-4 md:mx-10 lg:mx-0">
