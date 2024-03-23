@@ -1,4 +1,4 @@
-import { servicesContent } from "@/data/data";
+import { products, servicesContent } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 import { delay, motion } from "framer-motion";
@@ -34,7 +34,10 @@ const Products = (props: Props) => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {servicesContent.items.map((item) => (
-            <div key={item.title} className="relative p-2 sm:p-5 flex flex-col items-center sm:items-start sm:flex-row gap-3">
+            <div
+              key={item.title}
+              className="relative p-2 sm:p-5 flex flex-col items-center sm:items-start sm:flex-row gap-3"
+            >
               <div className="sm:w-1/6">
                 <Image
                   src={item.icon}
@@ -44,9 +47,32 @@ const Products = (props: Props) => {
                   alt={item.title}
                 />
               </div>
-              <div className="sm:w-5/6 flex flex-col gap-y-1">
+              <div className="sm:w-5/6 flex flex-col justify-center gap-y-1">
                 <h4 className="font-semibold text-primary">{item.title}</h4>
                 <p className="text-heading text-justify">{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 md:grid-cols-4 mt-16">
+          {products.map((product) => (
+            <div key={product.id} className="bg-white shadow-xl rounded-xl overflow-hidden">
+              {product.image && (
+                <div className="relative aspect-square w-full overflow-hidden">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    // width={200}
+                    // height={200}
+
+                    className="object-cover"
+                  />
+                </div>
+              )}
+              <div className="px-8 py-5">
+                <p className="text-gray-700 font-semibold">{product.brand}</p>
+                <span className="text-gray-800 font-semibold">C${product.price}</span>
               </div>
             </div>
           ))}

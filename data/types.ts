@@ -7,3 +7,13 @@ export type ButtonProps = {
   isDisabled?: boolean;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
 };
+export interface Product {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  brand: string;
+  category: string;
+  inStock: boolean;
+  image: string;
+}
