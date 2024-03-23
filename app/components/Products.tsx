@@ -56,7 +56,7 @@ const Products = (props: Props) => {
         </div>
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 md:grid-cols-4 mt-16">
           {products.map((product) => (
-            <div key={product.id} className="bg-white shadow-xl rounded-xl overflow-hidden">
+            <div key={product.id} className="bg-white shadow-lg rounded-3xl overflow-hidden">
               {product.image && (
                 <div className="relative aspect-square w-full overflow-hidden">
                   <Image

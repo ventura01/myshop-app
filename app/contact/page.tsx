@@ -43,9 +43,9 @@ const ContactPage = (props: Props) => {
           onSubmit={sendEmail}
           ref={form}
           action=""
-          className="flex p-10 flex-col gap-y-5 bg-white rounded-lg"
+          className="flex p-10 flex-col gap-y-5 bg-white rounded-lg shadow-lg"
         >
-          <div className="flex justify-center flex-col items-center py-8 max-w-sm gap-y-4">
+          <div className="flex justify-center flex-col items-center py-5 max-w-sm gap-y-4">
             <h1 className="text-4xl font-bold text-heading">Contáctanos</h1>
             <h2 className="text-center text-body">
               Nos encantaría leer tus comentarios y/o sugerencias. De esa forma
