@@ -71,8 +71,8 @@ const Products = (props: Props) => {
                 </div>
               )}
               <div className="px-8 py-5">
-                <p className="text-gray-700 font-semibold">{product.brand}</p>
-                <span className="text-gray-800 font-semibold">C${product.price}</span>
+                <p className="text-gray-700 text-lg font-semibold">{product.brand}</p>
+                <div className="flex justify-end"><span className="text-gray-800 font-semibold">C${product.price}</span></div>
               </div>
             </div>
           ))}

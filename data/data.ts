@@ -7,7 +7,7 @@ export const navLinks = [
   // { title: "testimonios", url: "#testimonials" },
   // { title: "blog", url: "#blog" },
   { title: "contacto", url: "/contact" },
-  { title: "info", url: "#info" },
+  // { title: "info", url: "#info" },
 ];
 
 export const footerLinks = [
@@ -39,40 +39,40 @@ export const servicesContent = {
   },
   items: [
     {
-      icon: "/icon-1.svg",
+      icon: "/icon-5.svg",
       title: "Analgésicos",
       description:
-        "Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
+        "Los medicamentos analgésicos son medicamentos que reducen o alivian el dolor de cabeza, muscular, artrítico y otros dolores.",
     },
     {
       icon: "/icon-2.svg",
       title: "Anestésicos",
       description:
-        "Innovative technologies for monitoring and caring for elderly family members, promoting their safety and independence.",
+        "Los medicamentos anestésicos son medicamentos que ayudan a bloquear el dolor. Se pueden administrar por inyección, inhalación, loción tópica, aerosol, gotas para los ojos o parche cutáneo.",
     },
     {
       icon: "/icon-3.svg",
       title: "Ansiolíticos",
       description:
-        "Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
+        "Medicamento que se usa para tratar los síntomas de ansiedad, como los sentimientos de temor, terror, incomodidad y tirantez muscular, que se pueden presentar como reacción a la tensión.  ",
     },
     {
-      icon: "/icon-4.svg",
+      icon: "/icon-8.svg",
       title: "Antibióticos",
       description:
-        "Expert financial advice to help you build a strong financial foundation and plan for your family's long-term security.",
+        "Los antibióticos son medicamentos que combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación.",
     },
     {
-      icon: "/icon-5.svg",
+      icon: "/icon-1.svg",
       title: "Anticonceptivos",
       description:
-        "Wearable personal safety devices equipped with GPS tracking and emergency alerts for family members on the go.",
+        "Son píldoras que se toman todos los días y contienen hormonas que modifican la manera en la que funciona el organismo y previenen los embarazos.",
     },
     {
       icon: "/icon-6.svg",
       title: "Anticolinérgicos",
       description:
-        "Tailored insurance policies to protect your family's financial future, including life insurance, health insurance, and property insurance.",
+        "Son fármacos que bloquean la acción de la acetilcolina. La acetilcolina es un neurotransmisor o mensajero químico que transfiere señales entre ciertas células para afectar al funcionamiento del cuerpo.",
     },
   ],
 };
@@ -175,7 +175,7 @@ export const products: Product[] = [
     name: "Aspirina Ácido Acetilsalicilico 500 mg 40 Tabletas",
     description:
       "Excepturi maxime eligendi nulla repellat architecto qui voluptatem eius. Est commodi assumenda. Aliquid eum magnam autem reiciendis omnis assumenda veritatis neque. Delectus omnis quaerat cumque occaecati. Non est asperiores doloremque vel voluptatibus.",
-    price: 11.99,
+    price: 520.75,
     brand: "Vick 44 Jarabe",
     category: "Ropa",
     inStock: true,
@@ -186,7 +186,7 @@ export const products: Product[] = [
     name: "Apple iPhone 12, 64GB",
     description:
       "Facere commodi eligendi. Sit incidunt nisi aut sequi et. Iure saepe eligendi voluptas rem ut qui voluptatem explicabo. Aut necessitatibus nulla et aspernatur in suscipit ea consectetur. Adipisci aperiam alias occaecati.",
-    price: 49.99,
+    price: 1250.00,
     brand: "Alka-Seltzer",
     category: "Accesorio",
     inStock: false,
@@ -197,7 +197,7 @@ export const products: Product[] = [
     name: "Apple iPhone 12, 64GB",
     description:
       "Facere commodi eligendi. Sit incidunt nisi aut sequi et. Iure saepe eligendi voluptas rem ut qui voluptatem explicabo. Aut necessitatibus nulla et aspernatur in suscipit ea consectetur. Adipisci aperiam alias occaecati.",
-    price: 49.99,
+    price: 499.99,
     brand: "Aspirina 500mg",
     category: "Accesorio",
     inStock: true,
@@ -208,7 +208,7 @@ export const products: Product[] = [
     name: "Logitech MX Master 2S Wireless Mouse – Use on Any Surface, Hyper-Fast Scrolling, Ergonomic Shape, Rechargeable, Control Upto 3 Apple Mac and Windows Computers, Graphite",
     description:
       "Rem dolor maxime libero quidem quam similique placeat quasi atque. Repellat recusandae accusantium minus saepe nihil quis quisquam omnis illum. Ipsam tempora eaque nobis consectetur debitis quo. Eos libero ut eveniet. Ad possimus placeat esse laborum error est.",
-    price: 17.99,
+    price: 820.00,
     brand: "Novalgina 500mg",
     category: "Ropa",
     inStock: true,
@@ -219,7 +219,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Consequuntur quibusdam culpa omnis et. Quam similique dolor eum laudantium maiores. Eum sapiente deleniti molestiae. Veniam impedit nobis. Nisi corporis laudantium pariatur omnis eveniet.",
-    price: 19.99,
+    price: 720.00,
     brand: "Metronidazol",
     category: "Ropa",
     inStock: true,
@@ -230,7 +230,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Quia hic odio voluptas et in. Est velit qui. Nostrum tempora dolore rem ducimus tenetur asperiores. Itaque magnam qui voluptas et excepturi necessitatibus ipsam voluptate molestiae.",
-    price: 54.99,
+    price: 545.0,
     brand: "Metformina 850mg",
     category: "Ropa",
     inStock: true,
@@ -241,7 +241,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Illo dolorem tenetur explicabo quasi labore praesentium qui. Ipsum debitis debitis est consequatur ut. Ad vel in voluptatibus inventore vero.",
-    price: 79.99,
+    price: 799.99,
     brand: "Vitamina Centrum",
     category: "Accesorio",
     inStock: true,
@@ -252,7 +252,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Laboriosam odit sunt. Expedita eos quisquam soluta reiciendis qui praesentium corrupti. Iusto fugit natus dolorem. Voluptatibus dignissimos sit aut itaque et. Quas ex illo voluptatibus modi voluptatem eius est enim sed.",
-    price: 59.99,
+    price: 599.99,
     brand: "Vitamina B-12 Nature's Bounty",
     category: "Ropa",
     inStock: true,
@@ -263,7 +263,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Consequuntur suscipit molestias enim a. Impedit aut sed aperiam sint eius. Qui dolores provident veniam. Non earum impedit eius rem corrupti iure in.",
-    price: 24.99,
+    price: 2400.0,
     brand: "Hierro - NaturTierra",
     category: "Ropa",
     inStock: true,
@@ -274,7 +274,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Ullam molestiae optio saepe. Error odio et. Ab inventore magnam laudantium vel omnis repellat hic ducimus ad. Non voluptate deserunt harum consequatur repellat id dolore.",
-    price: 29.99,
+    price: 290.0,
     brand: "Neurobion X3",
     category: "Ropa",
     inStock: true,
@@ -285,7 +285,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Consequuntur suscipit molestias enim a. Impedit aut sed aperiam sint eius. Qui dolores provident veniam. Non earum impedit eius rem corrupti iure in.",
-    price: 24.99,
+    price: 249.99,
     brand: "Broken",
     category: "Ropa",
     inStock: true,
@@ -296,7 +296,7 @@ export const products: Product[] = [
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
       "Ullam molestiae optio saepe. Error odio et. Ab inventore magnam laudantium vel omnis repellat hic ducimus ad. Non voluptate deserunt harum consequatur repellat id dolore.",
-    price: 29.99,
+    price: 299.99,
     brand: "Clarityne 10mg",
     category: "Ropa",
     inStock: true,
