@@ -176,7 +176,7 @@ export const products: Product[] = [
     description:
       "Excepturi maxime eligendi nulla repellat architecto qui voluptatem eius. Est commodi assumenda. Aliquid eum magnam autem reiciendis omnis assumenda veritatis neque. Delectus omnis quaerat cumque occaecati. Non est asperiores doloremque vel voluptatibus.",
     price: 11.99,
-    brand: "weekender",
+    brand: "Vick 44 Jarabe",
     category: "Ropa",
     inStock: true,
     image: "/img/prod-1.jpg",
@@ -286,10 +286,10 @@ export const products: Product[] = [
     description:
       "Consequuntur suscipit molestias enim a. Impedit aut sed aperiam sint eius. Qui dolores provident veniam. Non earum impedit eius rem corrupti iure in.",
     price: 24.99,
-    brand: "Hierro - NaturTierra",
+    brand: "Broken",
     category: "Ropa",
     inStock: true,
-    image: "/img/prod-9.jpg",
+    image: "/img/prod-11.jpg",
   },
   {
     id: 341,
@@ -297,9 +297,9 @@ export const products: Product[] = [
     description:
       "Ullam molestiae optio saepe. Error odio et. Ab inventore magnam laudantium vel omnis repellat hic ducimus ad. Non voluptate deserunt harum consequatur repellat id dolore.",
     price: 29.99,
-    brand: "Neurobion X3",
+    brand: "Clarityne 10mg",
     category: "Ropa",
     inStock: true,
-    image: "/img/prod-10.jpg",
+    image: "/img/prod-12.jpg",
   },
 ];
