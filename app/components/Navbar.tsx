@@ -20,7 +20,7 @@ const Navbar = (props: Props) => {
   const path = usePathname();
   return (
     <header className="border-b-[1px] border-dotted z-50 shadow-m bg-white w-full fixed top-0">
-      <div className="container max-w-screen-xl mx-auto py-5">
+      <div className="container max-w-screen-xl mx-auto pt-5 md:py-5">
         <nav className="flex justify-between items-center mx-4 lg:mx-0">
           <div>
             <Link href="/">
@@ -94,29 +94,6 @@ const Navbar = (props: Props) => {
             </button>
           </div>
         </nav>
-        <div className="sm:hidden flex-col justify-center items-center bg-primary px-3 py-2 rounded-2xl">
-          {/* <div>
-            <p className="text-white font-semibold">Servicio Delivery</p>
-          </div> */}
-          <div className="flex gap-x-2 justify-center items-center">
-            <div className="flex items-center gap-x-2">
-              <div className="border-2 border-white rounded-full p-1">
-                <Phone size={24} weight="fill" className="fill-white" />
-              </div>
-              <p className="text-white font-bold">
-                2222-5555
-              </p>
-            </div>
-            <div className="flex items-center gap-x-2">
-              <div className="cursor-pointer">
-                <WhatsappLogo size={44} color="#ffffff" weight="regular" />
-              </div>
-              <p className="text-white font-bold">
-                8888-5555
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </header>
   );

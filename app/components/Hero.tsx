@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
       transition={{ duration: 0.3 }}
       className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 py-10 md:py-20 gap-2"
     >
-      <div className="flex flex-col gap-y-8 mx-4 md:mx-10 lg:mx-0 lg:mr-24 row-start-2 row-end-3 sm:row-start-1 sm:row-end-2 col-start-1 col-end-3 lg:col-start-1 lg:col-end-2 mb-20 lg:mb-0 justify-center">
+      <div className="flex flex-col gap-y-8 mx-4 md:mx-10 lg:mx-0 lg:mr-24 mt-10 md:mt-0 row-start-2 row-end-3 sm:row-start-1 sm:row-end-2 col-start-1 col-end-3 lg:col-start-1 lg:col-end-2 mb-20 lg:mb-0 justify-center">
         <h2 className="font-bold text-heading text-lg">Bienvenido</h2>
         <h1 className="text-4xl sm:text-6xl font-bold text-heading text-justify">
           Cuidamos de tu salud y bienestar
