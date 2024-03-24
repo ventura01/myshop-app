@@ -20,7 +20,7 @@ const Navbar = (props: Props) => {
   const path = usePathname();
   return (
     <header className="border-b-[1px] border-dotted z-50 shadow-m bg-white w-full fixed top-0">
-      <div className="container max-w-screen-xl mx-auto pt-5 md:py-5">
+      <div className="container max-w-screen-xl mx-auto py-5 md:py-5">
         <nav className="flex justify-between items-center mx-4 lg:mx-0">
           <div>
             <Link href="/">

@@ -1,3 +1,5 @@
+'use client'
+
 import { Phone, WhatsappLogo } from '@phosphor-icons/react';
 import React from 'react'
 
