@@ -19,7 +19,7 @@ const Products = (props: Props) => {
       }}
       whileInView={{ opacity: 1 }}
       id="products"
-      className="bg-light py-10 md:py-20 px-4 lg:px-0"
+      className="bg-light py-20 px-4 lg:px-0"
     >
       <div className="container max-w-screen-xl mx-auto">
         <div className="flex flex-col gap-y-5 pb-10 max-w-2xl mx-auto">

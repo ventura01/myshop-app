@@ -39,7 +39,7 @@ const Navbar = (props: Props) => {
           <div
             className={`${
               isOpen
-                ? "flex flex-col gap-y-16 bg-primary w-screen h-screen lg:hidden text-white fixed left-0 top-14 justify-center items-center z-[50]"
+                ? "flex flex-col gap-y-16 bg-primary w-screen h-screen lg:hidden text-white fixed left-0 top-[72px] justify-center items-center z-[50]"
                 : "hidden lg:flex gap-x-5 lg:text-heading"
             }`}
           >
@@ -87,9 +87,17 @@ const Navbar = (props: Props) => {
               className="lg:hidden block z-[99]"
             >
               {isOpen ? (
-                <X size={24} color="#030303" />
+                <X
+                  size={36}
+                  color="#fff"
+                  className="bg-secondary rounded-full py-2 px-2"
+                />
               ) : (
-                <List size={24} color="#030303" />
+                <List
+                  size={36}
+                  color="#fff"
+                  className="bg-secondary rounded-full py-2 px-2"
+                />
               )}
             </button>
           </div>
