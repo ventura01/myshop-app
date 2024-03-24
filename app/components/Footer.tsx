@@ -41,20 +41,20 @@ const Footer = (props: Props) => {
           <div className="flex flex-col gap-y-3">
             <div className="flex gap-x-3 items-center">
               <Phone size={20} color="#1D5B79" weight="fill" />
-              <p className="text-body text-sm">(505) 7898 9878</p>
+              <p className="text-body">(505) 7898 9878</p>
             </div>
             <div className="flex gap-x-3 items-center">
               <Envelope size={20} color="#1D5B79" weight="fill" />
               <Link
                 href="mailto:info@farmaciazulmita.com"
-                className="text-body text-sm"
+                className="text-body"
               >
                 info@farmaciazulmita.com
               </Link>
             </div>
             <div className="flex gap-x-3 items-start">
               <MapPin size={20} color="#1D5B79" weight="fill" />
-              <p className="text-body text-sm">
+              <p className="text-body">
                 Del Banco Avanz 1C. al Este.
                 <br />
                 Jalapa, Nueva Segovia.

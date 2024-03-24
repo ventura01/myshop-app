@@ -174,7 +174,7 @@ export const products: Product[] = [
     id: 583,
     name: "Aspirina Ácido Acetilsalicilico 500 mg 40 Tabletas",
     description:
-      "Excepturi maxime eligendi nulla repellat architecto qui voluptatem eius. Est commodi assumenda. Aliquid eum magnam autem reiciendis omnis assumenda veritatis neque. Delectus omnis quaerat cumque occaecati. Non est asperiores doloremque vel voluptatibus.",
+      "El jarabe para la tos Vick 44® Exp infantil contiene un expectorante (Guaifenesina) que ayuda a expulsar las flemas. También contiene una tecnología mucoadhesiva que se adhiere a la garganta irritada, dejando una capa protectora para brindar una sensación de alivio y frescura.",
     price: 520.75,
     brand: "Vick 44 Jarabe",
     category: "Ropa",
@@ -185,8 +185,8 @@ export const products: Product[] = [
     id: 852,
     name: "Apple iPhone 12, 64GB",
     description:
-      "Facere commodi eligendi. Sit incidunt nisi aut sequi et. Iure saepe eligendi voluptas rem ut qui voluptatem explicabo. Aut necessitatibus nulla et aspernatur in suscipit ea consectetur. Adipisci aperiam alias occaecati.",
-    price: 1250.00,
+      "Alka-Seltzer es un medicamento antiácido que se vende sin receta médica y que está indicado para el alivio sintomático de la acidez y el ardor de estómago. Contiene ácido acetilsalicílico, ácido cítrico, fosfato de calcio y bicarbonato de sodio como sustancias activas.",
+    price: 1250.0,
     brand: "Alka-Seltzer",
     category: "Accesorio",
     inStock: false,
@@ -196,7 +196,7 @@ export const products: Product[] = [
     id: 853,
     name: "Apple iPhone 12, 64GB",
     description:
-      "Facere commodi eligendi. Sit incidunt nisi aut sequi et. Iure saepe eligendi voluptas rem ut qui voluptatem explicabo. Aut necessitatibus nulla et aspernatur in suscipit ea consectetur. Adipisci aperiam alias occaecati.",
+      "La aspirina es un medicamento que pertenece a un grupo de medicamentos llamados salicilatos. Se utiliza para reducir el dolor, la inflamación y la fiebre. Los médicos también pueden recetar aspirina para tratar o prevenir la angina de pecho, los ataques cardíacos, los ataques isquémicos transitorios y los ataques cerebrales.",
     price: 499.99,
     brand: "Aspirina 500mg",
     category: "Accesorio",
@@ -207,8 +207,8 @@ export const products: Product[] = [
     id: 530,
     name: "Logitech MX Master 2S Wireless Mouse – Use on Any Surface, Hyper-Fast Scrolling, Ergonomic Shape, Rechargeable, Control Upto 3 Apple Mac and Windows Computers, Graphite",
     description:
-      "Rem dolor maxime libero quidem quam similique placeat quasi atque. Repellat recusandae accusantium minus saepe nihil quis quisquam omnis illum. Ipsam tempora eaque nobis consectetur debitis quo. Eos libero ut eveniet. Ad possimus placeat esse laborum error est.",
-    price: 820.00,
+      "La Novalgina es un fármaco para aliviar dolor leve a severo, incluyendo dolor somático y visceral, fiebre, traumatismos y cirugía.",
+    price: 820.0,
     brand: "Novalgina 500mg",
     category: "Ropa",
     inStock: true,
@@ -218,8 +218,8 @@ export const products: Product[] = [
     id: 125,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Consequuntur quibusdam culpa omnis et. Quam similique dolor eum laudantium maiores. Eum sapiente deleniti molestiae. Veniam impedit nobis. Nisi corporis laudantium pariatur omnis eveniet.",
-    price: 720.00,
+      "El metronidazol (también llamado Flagyl®) es un medicamento que se utiliza para tratar infecciones. El metronidazol de administración oral está disponible en las siguientes formas y presentaciones: comprimidos redondos blancos de 250-mg. suspensión líquida rosada de 50 mg/mL.",
+    price: 720.0,
     brand: "Metronidazol",
     category: "Ropa",
     inStock: true,
@@ -229,7 +229,7 @@ export const products: Product[] = [
     id: 543,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Quia hic odio voluptas et in. Est velit qui. Nostrum tempora dolore rem ducimus tenetur asperiores. Itaque magnam qui voluptas et excepturi necessitatibus ipsam voluptate molestiae.",
+      "Metformina Teva se emplea para tratar a los pacientes con diabetes de tipo 2 (también llamada “diabetes no insulinodependiente”) cuando la dieta y el ejercicio por sí solos no han sido suficientes para controlar su nivel de glucosa en la sangre.",
     price: 545.0,
     brand: "Metformina 850mg",
     category: "Ropa",
@@ -240,7 +240,7 @@ export const products: Product[] = [
     id: 351,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Illo dolorem tenetur explicabo quasi labore praesentium qui. Ipsum debitis debitis est consequatur ut. Ad vel in voluptatibus inventore vero.",
+      "Centrum Hombre es un suplemento multivitamínico y multimineral para hombres. Está formulado para satisfacer las necesidades nutricionales de los hombres, y para balancear la dieta diaria de vitaminas y minerales.",
     price: 799.99,
     brand: "Vitamina Centrum",
     category: "Accesorio",
@@ -251,7 +251,7 @@ export const products: Product[] = [
     id: 548,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Laboriosam odit sunt. Expedita eos quisquam soluta reiciendis qui praesentium corrupti. Iusto fugit natus dolorem. Voluptatibus dignissimos sit aut itaque et. Quas ex illo voluptatibus modi voluptatem eius est enim sed.",
+      "La vitamina B12 es un nutriente hidrosoluble que ayuda a producir glóbulos rojos, ADN, ARN, energía y tejidos. También ayuda a mantener sanas las células nerviosas.",
     price: 599.99,
     brand: "Vitamina B-12 Nature's Bounty",
     category: "Ropa",
@@ -262,7 +262,7 @@ export const products: Product[] = [
     id: 585,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Consequuntur suscipit molestias enim a. Impedit aut sed aperiam sint eius. Qui dolores provident veniam. Non earum impedit eius rem corrupti iure in.",
+      "El hierro de NaturTierra es un complemento alimenticio que contiene hierro y vitaminas. Contribuye a la formación de glóbulos rojos y hemoglobina, y al funcionamiento normal del sistema inmunitario.",
     price: 2400.0,
     brand: "Hierro - NaturTierra",
     category: "Ropa",
@@ -273,7 +273,7 @@ export const products: Product[] = [
     id: 345,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Ullam molestiae optio saepe. Error odio et. Ab inventore magnam laudantium vel omnis repellat hic ducimus ad. Non voluptate deserunt harum consequatur repellat id dolore.",
+      "Neurobion está indicado para el dolor nervioso expresado en uno o más de los siguientes síntomas: sensación de pinchazo/hormigueo, entumecimiento, rigidez muscular, calambres musculares, alteración de la sensación.",
     price: 290.0,
     brand: "Neurobion X3",
     category: "Ropa",
@@ -284,7 +284,7 @@ export const products: Product[] = [
     id: 581,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Consequuntur suscipit molestias enim a. Impedit aut sed aperiam sint eius. Qui dolores provident veniam. Non earum impedit eius rem corrupti iure in.",
+      "Broken es un complemento alimenticio a base de fitina, vitamina A y zinc que ayuda a prevenir la formación de cálculos renales. La fitina de Broken bloquea el crecimiento de los cristales responsables de la formación de cálculos renales, especialmente del tipo de oxalato cálcico y fosfato cálcico.",
     price: 249.99,
     brand: "Broken",
     category: "Ropa",
@@ -295,7 +295,7 @@ export const products: Product[] = [
     id: 341,
     name: 'Smart Watch(Answer/Make Call), 1.85" Smartwatch for Men Women IP68 Waterproof, 100+ Sport Modes, Fitness Activity Tracker, Heart Rate Sleep Monitor, Pedometer, Smart Watches for Android iOS, 2023',
     description:
-      "Ullam molestiae optio saepe. Error odio et. Ab inventore magnam laudantium vel omnis repellat hic ducimus ad. Non voluptate deserunt harum consequatur repellat id dolore.",
+      "La loratadina es un fármaco antihistamínico prescrito para tratar síntomas de resfriados y reacciones alérgicas como estornudos, picazón, congestión nasal, ojos llorosos, enrojecimiento ocular y/o sarpullidos con erupción o urticaria.",
     price: 299.99,
     brand: "Clarityne 10mg",
     category: "Ropa",

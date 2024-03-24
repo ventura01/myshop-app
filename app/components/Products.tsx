@@ -2,6 +2,7 @@ import { products, servicesContent } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 import { delay, motion } from "framer-motion";
+import Button from "./ui/Button";
 
 type Props = {};
 
@@ -17,7 +18,7 @@ const Products = (props: Props) => {
         duration: 2,
       }}
       whileInView={{ opacity: 1 }}
-      id="services"
+      id="products"
       className="bg-light py-10 md:py-20 px-4 lg:px-0"
     >
       <div className="container max-w-screen-xl mx-auto">
@@ -52,16 +53,27 @@ const Products = (props: Props) => {
                   />
                 </div>
               )}
-              <div className="px-8 py-5 flex justify-between items-center">
+              <div className="px-5 py-5 flex flex-col justify-between">
                 <div>
                   <p className="text-gray-700 text-lg font-semibold">
                     {product.brand}
                   </p>
+                  <p className="text-gray-500 text-sm">
+                    {product.description.substring(0, 64)}...
+                  </p>
                 </div>
                 <div className="flex justify-end">
-                  <span className="text-gray-600 font-semibold">
+                  <span className="text-gray-600 text-lg font-bold my-3">
                     C${product.price}
                   </span>
+                </div>
+                <div className="">
+                  <Button
+                    title="Ver producto"
+                    buttonStyles="w-full border-2 hover:text-[#249693] text-white hover:border-secondary border-transparent bg-[#249693] hover:bg-white"
+                    btnType="button"
+                    isDisabled={false}
+                  />
                 </div>
               </div>
             </div>
