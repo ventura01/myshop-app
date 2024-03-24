@@ -41,7 +41,7 @@ const Footer = (props: Props) => {
           <div className="flex flex-col gap-y-3">
             <div className="flex gap-x-3 items-center">
               <Phone size={20} color="#1D5B79" weight="fill" />
-              <p className="text-body">(505) 7898 9878</p>
+              <p className="text-body font-bold">(505) 7898 9878</p>
             </div>
             <div className="flex gap-x-3 items-center">
               <Envelope size={20} color="#1D5B79" weight="fill" />

@@ -10,6 +10,7 @@ import Testimonial from "./components/Testimonial";
 import RecentBlog from "./components/RecentBlog";
 import Products from "./components/Products";
 import MedicineTypes from "./components/MedicineTypes";
+import CTAsection from "./components/CTAsection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       {/* <Stats /> */}
       <Products />
       <MedicineTypes />
+      <CTAsection />
       {/* <Solutions /> */}
       {/* <Testimonial /> */}
       {/* <RecentBlog /> */}
