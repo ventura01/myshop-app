@@ -42,25 +42,25 @@ export const servicesContent = {
       icon: "/icon-5.svg",
       title: "Analgésicos",
       description:
-        "Los medicamentos analgésicos son medicamentos que reducen o alivian el dolor de cabeza, muscular, artrítico y otros dolores.",
+        "Son medicamentos que reducen o alivian el dolor de cabeza, muscular, artrítico y otros dolores.",
     },
     {
       icon: "/icon-2.svg",
       title: "Anestésicos",
       description:
-        "Los medicamentos anestésicos son medicamentos que ayudan a bloquear el dolor. Se pueden administrar por inyección, inhalación, loción tópica, aerosol, gotas para los ojos o parche cutáneo.",
+        "Estos medicamentos ayudan a bloquear el dolor. Se pueden administrar por inyección, inhalación, loción tópica, aerosol, gotas para los ojos o parche cutáneo.",
     },
     {
       icon: "/icon-3.svg",
       title: "Ansiolíticos",
       description:
-        "Medicamento que se usa para tratar los síntomas de ansiedad, como los sentimientos de temor, terror, incomodidad y tirantez muscular, que se pueden presentar como reacción a la tensión.  ",
+        "Se usa para tratar los síntomas de ansiedad, como los sentimientos de temor, terror, incomodidad y tirantez muscular, que se pueden presentar como reacción a la tensión.  ",
     },
     {
       icon: "/icon-8.svg",
       title: "Antibióticos",
       description:
-        "Los antibióticos son medicamentos que combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación.",
+        "Combaten las infecciones bacterianas en personas y animales. Funcionan matando las bacterias o dificultando su crecimiento y multiplicación.",
     },
     {
       icon: "/icon-1.svg",
@@ -72,7 +72,7 @@ export const servicesContent = {
       icon: "/icon-6.svg",
       title: "Anticolinérgicos",
       description:
-        "Son fármacos que bloquean la acción de la acetilcolina. La acetilcolina es un neurotransmisor o mensajero químico que transfiere señales entre ciertas células para afectar al funcionamiento del cuerpo.",
+        "Son fármacos que bloquean la acción de la acetilcolina. La acetilcolina es un neurotransmisor químico que transfiere señales entre ciertas células para afectar al funcionamiento del cuerpo.",
     },
   ],
 };

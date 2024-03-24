@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
           className="bg-red-500 p-5 rounded-full"
         /> */}
         <p className="text-body text-justify">
-          En Farmacia Zulma nos dedicamos a cuidar de tu salud y bienestar.
+          En Farmacia Zulmita nos dedicamos a cuidar de tu salud y bienestar.
           Entendemos lo importante que es sentirse bien y estar saludable en
           todas las etapas de la vida. Es por eso que nuestro equipo de expertos
           farmacéuticos está aquí para ofrecerte un servicio excepcional y
