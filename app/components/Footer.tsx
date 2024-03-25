@@ -149,7 +149,7 @@ const Footer = (props: Props) => {
                 title="Enviar"
                 btnType="submit"
                 isDisabled={false}
-                buttonStyles="bg-primary"
+                buttonStyles="bg-primary hover:text-primary hover:bg-white"
               />
             </div>
           </form>
