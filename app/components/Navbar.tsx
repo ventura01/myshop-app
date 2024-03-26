@@ -6,7 +6,13 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import Button from "./ui/Button";
-import { List, Phone, WhatsappLogo, X } from "@phosphor-icons/react";
+import {
+  List,
+  Phone,
+  ShoppingCart,
+  WhatsappLogo,
+  X,
+} from "@phosphor-icons/react";
 import { usePathname } from "next/navigation";
 
 type Props = {};
@@ -18,6 +24,7 @@ type Props = {};
 const Navbar = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const path = usePathname();
+  const [cartQty, setCartQty] = useState(0);
   return (
     <header className="border-b-[1px] border-dotted z-50 shadow-m bg-white w-full fixed top-0">
       <div className="container max-w-screen-xl mx-auto py-5 md:py-5">
@@ -56,11 +63,61 @@ const Navbar = (props: Props) => {
               </Link>
             ))}
           </div>
-          <div>
+          <div className="flex md:gap-x-3">
+            <div className="flex gap-x-3 justify-center items-center">
+              <div className="relative cursor-pointer">
+                {cartQty > 0 ? (
+                  <Link href="/cart" className="">
+                    <span className="px-[6px] text-[12px] absolute bg-orange-600 font-semibold text-white py-[2px] rounded-full -top-3 left-3">
+                      {cartQty}
+                    </span>
+                    <ShoppingCart
+                      size={24}
+                      weight="fill"
+                      className="fill-secondary"
+                    />
+                  </Link>
+                ) : (
+                  <Link href="/cart">
+                    <ShoppingCart
+                      size={24}
+                      weight="fill"
+                      className="fill-secondary"
+                    />
+                  </Link>
+                )}
+              </div>
+              {/* <Button
+                  title="llame ahora!"
+                  buttonStyles="bg-primary hidden lg:block"
+                  btnType="button"
+                  isDisabled={false}
+                /> */}
+              <div>
+                <button
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="lg:hidden block z-[99]"
+                >
+                  {isOpen ? (
+                    <X
+                      size={36}
+                      color="#fff"
+                      className="bg-secondary rounded-full py-2 px-2"
+                    />
+                  ) : (
+                    <List
+                      size={36}
+                      color="#fff"
+                      className="bg-secondary rounded-full py-2 px-2"
+                    />
+                  )}
+                </button>
+              </div>
+            </div>
             <div className="hidden lg:block flex-col justify-center items-center bg-primary px-3 py-1 rounded-2xl">
               {/* <div>
-            <p className="text-white font-semibold">Servicio Delivery</p>
-          </div> */}
+              <p className="text-white font-semibold">Servicio Delivery</p>
+            </div> */}
               <div className="flex gap-x-1 items-center">
                 <div className="border-2 border-white rounded-full p-1">
                   <Phone size={24} weight="fill" className="fill-white" />
@@ -76,30 +133,6 @@ const Navbar = (props: Props) => {
                 </p>
               </div>
             </div>
-            {/* <Button
-              title="llame ahora!"
-              buttonStyles="bg-primary hidden lg:block"
-              btnType="button"
-              isDisabled={false}
-            /> */}
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden block z-[99]"
-            >
-              {isOpen ? (
-                <X
-                  size={36}
-                  color="#fff"
-                  className="bg-secondary rounded-full py-2 px-2"
-                />
-              ) : (
-                <List
-                  size={36}
-                  color="#fff"
-                  className="bg-secondary rounded-full py-2 px-2"
-                />
-              )}
-            </button>
           </div>
         </nav>
       </div>
