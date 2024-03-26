@@ -1,59 +1,52 @@
-import { blogContent } from "@/data/data";
+import Button from "@/app/components/ui/Button";
+import { producto } from "@/data/producto";
 import Image from "next/image";
 import React from "react";
 
-type ProductPageProps = {
-  params: { id: number };
+type IParams = {
+  id?: string;
 };
 
-const SingleBlogPage = ({ params }: ProductPageProps) => {
-  const { id } = params;
-
-  //! Convertir a Tipo Numero el ID
-
-  const i = blogContent.recentBlog.findIndex((elem) => elem.id == id);
-  const data = blogContent.recentBlog[i];
-  console.log(id);
-  console.log(data);
-  console.log(i);
+const ProductDetailPage = ({ params }: { params: IParams }) => {
+  console.log(params);
   return (
-    <section className="min-h-[calc(100vh-373px)]">
-      <div className="grid pt-10 lg:pt-32 md:pt-20 grid-cols-1 lg:grid-cols-2 container max-w-screen-xl mx-auto px-4 lg:px-0 mb-20">
-        <div className="pb-10 lg:pb-0">
+    <section className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 pt-20">
+      <div className="relative w-full flex justify-center aspect-square h-full overflow-hidden">
+        {producto.image && (
           <Image
-            src={data.featuredImage}
-            width={600}
-            height={280}
-            alt={data.author.name}
-            className="object-cover object-center lg:rounded-xl max-h-[300px] w-full"
+            src={producto.image}
+            alt={producto.brand}
+            fill
+            className="object-contain"
           />
-        </div>
-        <div className="flex flex-col gap-y-8 lg:pl-10 px-4 lg:px-0 lg:max-w-lg">
-          <div className="flex flex-col gap-y-5">
-            <h1 className="text-4xl text-heading font-bold">{data.title}</h1>
-            <p className="text-body">{data.excerpt}</p>
-          </div>
-          <div className="flex gap-x-3 items-center">
-            <div>
-              <Image
-                src={data.author.img}
-                width={72}
-                height={72}
-                alt={data.author.name}
-                className="rounded-full"
-              />
-            </div>
-            <div>
-              <h2 className="text-sm text-heading font-semibold">
-                {data.author.name}
-              </h2>
-              <h3 className="text-body text-xs">{data.author.jobTitle}</h3>
-            </div>
-          </div>
+        )}
+      </div>
+
+      <div className="flex flex-col gap-y-5 md:max-w-md md:mx-8 justify-center mx-4 md:mx-0">
+        <h1 className="text-gray-700 text-3xl font-bold">{producto.brand}</h1>
+        <hr className="w-[30%]" />
+        <p className="text-body text-justify">{producto.description}</p>
+        <hr className="w-[30%]" />
+        {producto.inStock ? (
+          <p className="text-secondary text-sm font-semibold">En stock</p>
+        ) : (
+          <p className="text-red-600">Sin stock</p>
+        )}
+        <hr className="w-[30%]" />
+        <span className="text-xl text-gray-700 font-semibold">
+          C${producto.price}
+        </span>
+        <div>
+          <Button
+            title="Comprar"
+            buttonStyles="bg-secondary w-full md:w-auto mt-2 hover:bg-white hover:border-2 border-primary hover:text-primary"
+            btnType="button"
+            isDisabled={false}
+          />
         </div>
       </div>
     </section>
   );
 };
 
-export default SingleBlogPage;
+export default ProductDetailPage;

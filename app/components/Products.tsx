@@ -1,12 +1,16 @@
+
 import { products, servicesContent } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 import { delay, motion } from "framer-motion";
 import Button from "./ui/Button";
+import { useRouter } from "next/navigation";
+import { producto } from "@/data/producto";
 
 type Props = {};
 
 const Products = (props: Props) => {
+  const router = useRouter()
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -34,7 +38,7 @@ const Products = (props: Props) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 md:grid-cols-4 mt-16">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 md:grid-cols-4 mt-16">
           {products.map((product) => (
             <div
               key={product.id}
@@ -73,6 +77,7 @@ const Products = (props: Props) => {
                     buttonStyles="w-full border-2 hover:text-[#249693] text-white hover:border-secondary border-transparent bg-[#249693] hover:bg-white"
                     btnType="button"
                     isDisabled={false}
+                    handleClick={() => router.push(`/product/${producto.id}`)}
                   />
                 </div>
               </div>
