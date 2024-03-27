@@ -12,7 +12,7 @@ const CartPage = (props: Props) => {
   return (
     <div className="container relative overflow-x-auto max-w-screen-md mx-auto py-20 flex flex-col md:gap-y-5">
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <thead className="text-xs text-gray-700 uppercase bg-gray-50">
           <tr className="">
             <th scope="col" className="px-6 py-3 text-center"></th>
             <th scope="col" className="px-6 py-3 text-center">
@@ -30,7 +30,7 @@ const CartPage = (props: Props) => {
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr className="bg-white border-b">
             <td>
               <div className="relative w-32 h-32">
                 <Image
@@ -65,9 +65,9 @@ const CartPage = (props: Props) => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M1 1h16"
                     />
                   </svg>
@@ -95,9 +95,9 @@ const CartPage = (props: Props) => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M9 1v16M1 9h16"
                     />
                   </svg>
@@ -144,9 +144,9 @@ const CartPage = (props: Props) => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M1 1h16"
                     />
                   </svg>
@@ -174,9 +174,9 @@ const CartPage = (props: Props) => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M9 1v16M1 9h16"
                     />
                   </svg>
