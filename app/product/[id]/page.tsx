@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Button from "@/app/components/ui/Button";
 import { producto } from "@/data/producto";
@@ -12,7 +12,7 @@ type IParams = {
 
 const ProductDetailPage = ({ params }: { params: IParams }) => {
   console.log(params);
-  const router = useRouter()
+  const router = useRouter();
   return (
     <section className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 pt-20">
       <div className="relative w-full flex justify-center aspect-square h-full overflow-hidden">
@@ -26,7 +26,7 @@ const ProductDetailPage = ({ params }: { params: IParams }) => {
         )}
       </div>
 
-      <div className="flex flex-col gap-y-5 md:max-w-md md:mx-8 justify-center mx-4 md:mx-0">
+      <div className="flex flex-col gap-y-5 md:max-w-md md:mx-8 justify-center mx-4 lg:mx-0">
         <h1 className="text-gray-700 text-3xl font-bold">{producto.brand}</h1>
         <hr className="w-[30%]" />
         <p className="text-body text-justify">{producto.description}</p>
@@ -46,7 +46,7 @@ const ProductDetailPage = ({ params }: { params: IParams }) => {
             buttonStyles="bg-secondary w-full md:w-auto mt-2 hover:bg-white hover:border-2 border-primary hover:text-primary"
             btnType="button"
             isDisabled={false}
-            handleClick={() => router.push('/cart')}
+            handleClick={() => router.push("/cart")}
           />
         </div>
       </div>

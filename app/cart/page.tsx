@@ -10,7 +10,8 @@ type Props = {};
 const CartPage = (props: Props) => {
   const [cartQty, setCartQty] = useState(1);
   return (
-    <div className="container relative overflow-x-auto max-w-screen-md mx-auto py-20 flex flex-col md:gap-y-5">
+    <div className="container relative overflow-x-auto max-w-screen-md mx-auto py-20 flex flex-col gap-y-5">
+      <h1 className="text-2xl font-bold text-gray-800 text-center py-5">Carrito de compras</h1>
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50">
           <tr className="">
@@ -76,13 +77,13 @@ const CartPage = (props: Props) => {
                   <input
                     type="number"
                     id="first_product"
-                    className="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="1"
                     required
                   />
                 </div>
                 <button
-                  className="inline-flex items-center justify-center h-6 w-6 p-1 ms-3 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-full focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                  className="inline-flex items-center justify-center h-6 w-6 p-1 ms-3 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-full focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                   type="button"
                 >
                   <span className="sr-only">Quantity button</span>
@@ -131,7 +132,7 @@ const CartPage = (props: Props) => {
             <td className="px-6 py-4">
               <div className="flex justify-center items-center">
                 <button
-                  className="inline-flex items-center justify-center p-1 me-3 text-sm font-medium h-6 w-6 text-gray-500 bg-white border border-gray-300 rounded-full focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                  className="inline-flex items-center justify-center p-1 me-3 text-sm font-medium h-6 w-6 text-gray-500 bg-white border border-gray-300 rounded-full focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                   type="button"
                 >
                   <span className="sr-only">Quantity button</span>
@@ -155,7 +156,7 @@ const CartPage = (props: Props) => {
                   <input
                     type="number"
                     id="first_product"
-                    className="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="1"
                     required
                   />
@@ -200,19 +201,27 @@ const CartPage = (props: Props) => {
               Total
             </th>
             <td className="px-6 py-3 text-center">2</td>
-            <td className="px-6 py-3 text-center font-bold">1220.75</td>
+            <td className="px-6 py-3 text-center font-bold">1240.75</td>
+          </tr>
+          <tr className="bg-white ">
+            <td className=""></td>
+            <td className=""></td>
+            <td className=""></td>
+            <td className=""></td>
+            <td className="py-5">
+              <div className="">
+                <Button
+                  title="Pagar"
+                  buttonStyles="text-xl border-2 hover:text-[#249693] tracking-wider text-white hover:border-secondary border-transparent bg-[#249693] hover:bg-white"
+                  btnType="button"
+                  isDisabled={false}
+                  //   handleClick={() => router.push(`/product/${producto.id}`)}
+                />
+              </div>
+            </td>
           </tr>
         </tfoot>
       </table>
-      <div className="self-end">
-        <Button
-          title="Pagar"
-          buttonStyles="uppercase border-2 hover:text-[#249693] text-white hover:border-secondary border-transparent bg-[#249693] hover:bg-white"
-          btnType="button"
-          isDisabled={false}
-        //   handleClick={() => router.push(`/product/${producto.id}`)}
-        />
-      </div>
     </div>
   );
 };
