@@ -111,7 +111,7 @@ const CartPage = (props: Props) => {
               </p>
             </td>
           </tr>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr className="bg-white border-b">
             <td>
               <div className="relative w-32 h-32">
                 <Image
@@ -190,7 +190,7 @@ const CartPage = (props: Props) => {
           </tr>
         </tbody>
         <tfoot>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr className="bg-white border-b">
             <td className="px-6 py-3"></td>
             <td className="px-6 py-3"></td>
             <th
