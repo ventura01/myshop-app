@@ -32,7 +32,7 @@ const Products = (props: Props) => {
           <h3 className="text-center font-bold text-heading text-4xl">
             Productos
           </h3>
-          <p className="leading-relaxed text-body text-center">
+          <p className="leading-relaxed text-body text-justify">
             {servicesContent.heading.description}
           </p>
         </div>
