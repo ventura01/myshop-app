@@ -44,6 +44,13 @@ const CTAsection = (props: Props) => {
         height={1450}
         className="hidden md:block absolute -left-24 top-32 object-cover object-center opacity-50 mix-blend-luminosity md:-left-56 md:-top-72 -z-[1]"
       />
+      <Image
+        src="/bgimg.svg"
+        alt="bg-image"
+        width={1450}
+        height={1450}
+        className="hidden md:block absolute -left-32 top-32 object-cover object-center opacity-50 mix-blend-luminosity md:left-[600px] md:-top-20 -z-[1]"
+      />
     </section>
   );
 };

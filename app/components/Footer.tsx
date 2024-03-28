@@ -30,8 +30,8 @@ const Footer = (props: Props) => {
           <Link href={"/"}>
             <Image
               src="/logo-footer.svg"
-              width={260}
-              height={80}
+              width={300}
+              height={58}
               alt="logo-footer"
             />
             {/* <p className="text-2xl uppercase font-semibold text-gray-700">

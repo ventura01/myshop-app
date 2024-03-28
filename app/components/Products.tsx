@@ -1,4 +1,3 @@
-
 import { products, servicesContent } from "@/data/data";
 import Image from "next/image";
 import React from "react";
@@ -10,7 +9,7 @@ import { producto } from "@/data/producto";
 type Props = {};
 
 const Products = (props: Props) => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -52,7 +51,7 @@ const Products = (props: Props) => {
                     fill
                     // width={200}
                     // height={200}
-
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover"
                   />
                 </div>

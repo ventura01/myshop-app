@@ -52,12 +52,13 @@ const Hero = (props: Props) => {
         </div>
       </div>
       <div className="grid grid-cols-12 gap-2 col-start-1 col-end-3 lg:col-start-2 lg:col-end-3 mx-4 md:mx-10 lg:mx-0">
-        <div className="col-start-1 col-end-9 relative">
+        <div className="col-start-1 col-end-9 relative w-full">
           <Image
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src="/image1.jpg"
             // width={600}
             // height={900}
-
+            priority
             fill
             className="object-cover rounded-xl h-full w-full"
             alt="img1"
@@ -67,6 +68,7 @@ const Hero = (props: Props) => {
           <div className="col-start-1 col-end-9 grid grid-cols-2 self-end gap-2">
             <div className="col-start-1 col-end-2 relative w-full h-20">
               <Image
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 src="/image3.jpg"
                 // width={600}
                 // height={900}
@@ -80,6 +82,7 @@ const Hero = (props: Props) => {
           </div>
           <div className="col-start-1 col-end-9 h-40 relative">
             <Image
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src="/image5.jpg"
               // width={600}
               // height={900}
@@ -95,6 +98,7 @@ const Hero = (props: Props) => {
 
         <div className="relative w-full h-20 col-start-3 col-end-5">
           <Image
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src="/image4.jpg"
             // width={600}
             // height={900}
@@ -105,6 +109,7 @@ const Hero = (props: Props) => {
         </div>
         <div className="col-start-5 h-40 col-end-9 relative">
           <Image
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src="/image2.jpg"
             // width={600}
             // height={900}

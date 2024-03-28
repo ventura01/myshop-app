@@ -24,7 +24,7 @@ type Props = {};
 const Navbar = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const path = usePathname();
-  const [cartQty, setCartQty] = useState(2);
+  const [cartQty, setCartQty] = useState(0);
   return (
     <header className="border-b-[1px] border-dotted z-50 shadow-m bg-white w-full fixed top-0">
       <div className="container max-w-screen-xl mx-auto py-5 md:py-5">
@@ -33,8 +33,8 @@ const Navbar = (props: Props) => {
             <Link href="/" className="">
               <Image
                 src={"/logo.svg"}
-                width={260}
-                height={80}
+                width={300}
+                height={59}
                 alt="logo"
                 priority
               ></Image>
