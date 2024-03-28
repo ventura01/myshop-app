@@ -2,10 +2,20 @@ import { servicesContent } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 import { delay, motion } from "framer-motion";
+import { Product } from "@/data/interfaces";
 
 type Props = {};
 
-const Products = (props: Props) => {
+const getData = async () => {
+  const res = await fetch(`http://localhost:3000/api/products`,{cache:"no-store"})
+  if (!res.ok) {
+    throw new Error("Failed")
+  }
+  return res.json()
+}
+
+const Products =  async (props: Props) => {
+  const products:Product[] = await getData()
   return (
     <motion.section
       initial={{ opacity: 0 }}
