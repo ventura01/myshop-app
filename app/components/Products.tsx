@@ -4,12 +4,28 @@ import React from "react";
 import { delay, motion } from "framer-motion";
 import Button from "./ui/Button";
 import { useRouter } from "next/navigation";
-import { producto } from "@/data/producto";
+// import { producto } from "@/data/producto";
+import { Product } from "@/data/interfaces";
 
-type Props = {};
+// type Props = {};
 
-const Products = (props: Props) => {
-  const router = useRouter();
+// const Products = (props: Props) => {
+  
+  
+  type Props = {};
+  
+  const getData = async () => {
+    const res = await fetch(`http://localhost:3000/api/products`,{cache:"no-store"})
+    if (!res.ok) {
+    throw new Error("Failed")
+  }
+  return res.json()
+}
+
+const Products =  async (props: Props) => {
+    const router = useRouter();
+  const products:Product = await getData()
+  console.log(products)
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -46,8 +62,8 @@ const Products = (props: Props) => {
               {product.image && (
                 <div className="relative aspect-square w-full overflow-hidden">
                   <Image
-                    src={product.image}
-                    alt={product.name}
+                    src={product.img}
+                    alt={product.brand}
                     fill
                     // width={200}
                     // height={200}
@@ -62,12 +78,15 @@ const Products = (props: Props) => {
                     {product.brand}
                   </p>
                   <p className="text-gray-500 text-sm">
-                    {product.description.substring(0, 64)}...
+                    {product.desc.substring(0, 64)}...
+                  </p>
+                  <p className="text-gray-500 text-sm">
+                    {product.category}
                   </p>
                 </div>
                 <div className="flex justify-end">
                   <span className="text-gray-600 text-lg font-bold my-3">
-                    C${product.price}
+                    {product.price}
                   </span>
                 </div>
                 <div className="">
@@ -76,7 +95,7 @@ const Products = (props: Props) => {
                     buttonStyles="w-full border-2 hover:text-[#249693] text-white hover:border-secondary border-transparent bg-[#249693] hover:bg-white"
                     btnType="button"
                     isDisabled={false}
-                    handleClick={() => router.push(`/product/${producto.id}`)}
+                    // handleClick={() => router.push(`/product/${product.id}`)}
                   />
                 </div>
               </div>
