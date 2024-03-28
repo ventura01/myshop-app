@@ -44,6 +44,7 @@ const CartPage = (props: Props) => {
                   alt={producto.brand}
                   priority
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
                 />
               </div>
@@ -125,6 +126,7 @@ const CartPage = (props: Props) => {
                   src="/img/prod-2.jpg"
                   alt={producto.brand}
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
                 />
               </div>

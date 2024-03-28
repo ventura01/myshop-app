@@ -11,16 +11,17 @@ type IParams = {
 };
 
 const ProductDetailPage = ({ params }: { params: IParams }) => {
-  console.log(params);
+  // console.log(params);
   const router = useRouter();
   return (
-    <section className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 pt-20">
+    <section className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 pb-20">
       <div className="relative w-full flex justify-center aspect-square h-full overflow-hidden">
         {producto.image && (
           <Image
             src={producto.image}
             alt={producto.brand}
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-contain"
           />
         )}
@@ -42,11 +43,12 @@ const ProductDetailPage = ({ params }: { params: IParams }) => {
         </span>
         <div>
           <Button
-            title="Comprar"
+            title="Regresar"
             buttonStyles="bg-secondary w-full md:w-auto mt-2 hover:bg-white hover:border-2 border-primary hover:text-primary"
             btnType="button"
             isDisabled={false}
-            handleClick={() => router.push("/cart")}
+            // handleClick={() => router.push("/cart")}
+            handleClick={() => router.push("/")}
           />
         </div>
       </div>
