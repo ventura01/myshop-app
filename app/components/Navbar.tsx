@@ -93,7 +93,7 @@ const Navbar = (props: Props) => {
                   btnType="button"
                   isDisabled={false}
                 /> */}
-              <div>
+              {/* <div className="absolute hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   className="lg:hidden block z-[99]"
@@ -112,7 +112,7 @@ const Navbar = (props: Props) => {
                     />
                   )}
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="hidden lg:block flex-col justify-center items-center bg-primary px-3 py-1 rounded-2xl">
               {/* <div>

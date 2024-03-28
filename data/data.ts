@@ -6,7 +6,7 @@ export const navLinks = [
   // { title: "soluciones", url: "#solutions" },
   // { title: "testimonios", url: "#testimonials" },
   // { title: "blog", url: "#blog" },
-  { title: "contacto", url: "/contact" },
+  // { title: "contacto", url: "/contact" },
   // { title: "info", url: "#info" },
 ];
 

@@ -5,7 +5,7 @@ import Button from "../components/ui/Button";
 import emailjs from "@emailjs/browser";
 type Props = {};
 
-const ContactPage = (props: Props) => {
+const Contact = (props: Props) => {
   const form = useRef<HTMLFormElement>(null!);
   const [emailSent, setEmailSent] = useState(false);
   const [clickBtnSent, setClickBtnSent] = useState(false);
@@ -38,7 +38,7 @@ const ContactPage = (props: Props) => {
 
   return (
     <div className="bg-light ">
-      <div className="container max-w-lg mx-auto h-screen flex flex-col items-center justify-center">
+      <div className="container max-w-lg mx-auto py-20 flex flex-col items-center justify-center">
         <form
           onSubmit={sendEmail}
           ref={form}
@@ -47,7 +47,7 @@ const ContactPage = (props: Props) => {
         >
           <div className="flex justify-center flex-col items-center py-5 max-w-sm gap-y-4">
             <h1 className="text-4xl font-bold text-heading">Contáctanos</h1>
-            <h2 className="text-center text-body">
+            <h2 className="text-justify text-body">
               Nos encantaría leer tus comentarios y/o sugerencias. De esa forma
               nos ayudarías a poder darte un mejor servicio.
             </h2>
@@ -84,7 +84,7 @@ const ContactPage = (props: Props) => {
             </label>
             <textarea
               name="message"
-              placeholder="Estimado lector me encanta esta página web..."
+              placeholder="Escribe aquí tu mensaje..."
               id="message"
               cols={30}
               rows={10}
@@ -110,4 +110,4 @@ const ContactPage = (props: Props) => {
   );
 };
 
-export default ContactPage;
+export default Contact;
