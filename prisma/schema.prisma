@@ -10,7 +10,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 model Product {
-  id    Int     @id @default(autoincrement())
+  id    String @id @default(cuid())
   ref Int?  @unique
   desc  String?
   brand String?

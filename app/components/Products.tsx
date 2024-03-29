@@ -4,13 +4,8 @@ import React from "react";
 import { delay, motion } from "framer-motion";
 import Button from "./ui/Button";
 import { useRouter } from "next/navigation";
-// import { producto } from "@/data/producto";
 import { Product } from "@/data/interfaces";
 
-// type Props = {};
-
-// const Products = (props: Props) => {
-  
   
   type Props = {};
   
@@ -24,7 +19,7 @@ import { Product } from "@/data/interfaces";
 
 const Products =  async (props: Props) => {
     const router = useRouter();
-  const products:Product = await getData()
+  const products:Product[] = await getData()
   console.log(products)
   return (
     <motion.section
@@ -59,7 +54,7 @@ const Products =  async (props: Props) => {
               key={product.id}
               className="bg-white shadow-lg rounded-3xl overflow-hidden"
             >
-              {product.image && (
+              {product.img && (
                 <div className="relative aspect-square w-full overflow-hidden">
                   <Image
                     src={product.img}

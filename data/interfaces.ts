@@ -1,12 +1,11 @@
 export interface Product {
-  map(arg0: (product: any) => import("react").JSX.Element): import("react").ReactNode;
-  id: Number;
-  ref: Number;
-  desc: String;
-  brand: String;
-  img: String;
+  id: string;
+  ref: number;
+  desc: string;
+  brand: string;
+  img: string;
   inStock: boolean;
-  category?: String;
-  price: Number;
+  category?: string;
+  price: number;
   createdAt?: Date;
-}
+}[];
