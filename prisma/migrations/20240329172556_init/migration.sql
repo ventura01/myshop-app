@@ -1,13 +1,16 @@
 -- CreateTable
 CREATE TABLE "Product" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "id" TEXT NOT NULL,
     "ref" INTEGER,
     "desc" TEXT,
     "brand" TEXT,
     "img" TEXT,
     "inStock" BOOLEAN,
     "category" TEXT,
-    "price" INTEGER NOT NULL
+    "price" DECIMAL(65,30) NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Product_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex

@@ -81,6 +81,9 @@ Prisma.NullTypes = {
  * Enums
  */
 exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
+  ReadUncommitted: 'ReadUncommitted',
+  ReadCommitted: 'ReadCommitted',
+  RepeatableRead: 'RepeatableRead',
   Serializable: 'Serializable'
 });
 
@@ -99,6 +102,11 @@ exports.Prisma.ProductScalarFieldEnum = {
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
+};
+
+exports.Prisma.QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
 };
 
 exports.Prisma.NullsOrder = {
@@ -147,8 +155,7 @@ const config = {
   "datasourceNames": [
     "db"
   ],
-  "activeProvider": "sqlite",
-  "postinstall": false,
+  "activeProvider": "postgresql",
   "inlineDatasources": {
     "db": {
       "url": {
@@ -157,8 +164,8 @@ const config = {
       }
     }
   },
-  "inlineSchema": "// This is your Prisma schema file,\r\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\r\n\r\ngenerator client {\r\n  provider = \"prisma-client-js\"\r\n  output   = \"./generated/client\"\r\n}\r\n\r\ndatasource db {\r\n  provider = \"sqlite\"\r\n  url      = env(\"DATABASE_URL\")\r\n}\r\nmodel Product {\r\n  id    String @id @default(cuid())\r\n  ref Int?  @unique\r\n  desc  String?\r\n  brand String?\r\n  img String?\r\n  inStock Boolean?\r\n  category String?\r\n  price Decimal\r\n  createdAt DateTime @default(now())\r\n}",
-  "inlineSchemaHash": "f09f71c238e28adf32bfd43d198d34ab951082650317bf872af32f99e9b4e1cc",
+  "inlineSchema": "// This is your Prisma schema file,\r\n// learn more about it in the docs: https://pris.ly/d/prisma-schema\r\n\r\ngenerator client {\r\n  provider = \"prisma-client-js\"\r\n  output   = \"./generated/client\"\r\n}\r\n\r\ndatasource db {\r\n  provider = \"postgresql\"\r\n  url      = env(\"DATABASE_URL\")\r\n}\r\nmodel Product {\r\n  id    String @id @default(cuid())\r\n  ref Int?  @unique\r\n  desc  String?\r\n  brand String?\r\n  img String?\r\n  inStock Boolean?\r\n  category String?\r\n  price Decimal\r\n  createdAt DateTime @default(now())\r\n}",
+  "inlineSchemaHash": "5599dad9ab704435076b5676c4eaa22c0ff0aea92413b81cd5907d84723033ce",
   "copyEngine": true
 }
 config.dirname = '/'
