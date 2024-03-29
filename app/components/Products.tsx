@@ -5,22 +5,24 @@ import { delay, motion } from "framer-motion";
 import Button from "./ui/Button";
 import { useRouter } from "next/navigation";
 import { Product } from "@/data/interfaces";
+import Link from "next/link";
 
-  
-  type Props = {};
-  
-  const getData = async () => {
-    const res = await fetch(`http://localhost:3000/api/products`,{cache:"no-store"})
-    if (!res.ok) {
-    throw new Error("Failed")
+type Props = {};
+
+const getData = async () => {
+  const res = await fetch(`http://localhost:3000/api/products`, {
+    cache: "no-store",
+  });
+  if (!res.ok) {
+    throw new Error("Failed");
   }
-  return res.json()
-}
+  return res.json();
+};
 
-const Products =  async (props: Props) => {
-    const router = useRouter();
-  const products:Product[] = await getData()
-  console.log(products)
+const Products = async (props: Props) => {
+  const router = useRouter();
+  const products: Product[] = await getData();
+  console.log(products);
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -75,16 +77,14 @@ const Products =  async (props: Props) => {
                   <p className="text-gray-500 text-sm">
                     {product.desc.substring(0, 64)}...
                   </p>
-                  <p className="text-gray-500 text-sm">
-                    {product.category}
-                  </p>
+                  <p className="text-gray-500 text-sm">{product.category}</p>
                 </div>
                 <div className="flex justify-end">
                   <span className="text-gray-600 text-lg font-bold my-3">
                     {product.price}
                   </span>
                 </div>
-                <div className="">
+                <Link href={`/product/${product.id}`} className="">
                   <Button
                     title="Ver producto"
                     buttonStyles="w-full border-2 hover:text-[#249693] text-white hover:border-secondary border-transparent bg-[#249693] hover:bg-white"
@@ -92,7 +92,7 @@ const Products =  async (props: Props) => {
                     isDisabled={false}
                     // handleClick={() => router.push(`/product/${product.id}`)}
                   />
-                </div>
+                </Link>
               </div>
             </div>
           ))}
